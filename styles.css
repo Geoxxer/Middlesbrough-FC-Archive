@@ -40,22 +40,20 @@ a:active {
   color: #be5d59;
 }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
 div.gallery img {
   width: 100%;
   height: auto;
+  border: 1px solid #e2abab
+}
+
+div.gallery img:hover {
+  border: 1px solid #cd3529
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+  border: 1px solid #e2abab
 }
 
 * {
