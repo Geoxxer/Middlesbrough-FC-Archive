@@ -8,10 +8,18 @@ h2 {
   font-family:'Times New Roman', Times, serif
 }
 
+.copyright {
+  color:#858585;
+  font-family:'Times New Roman', Times, serif;
+  font-size:14px;
+  font-weight:normal;
+  text-align: center
+}
+
 p {
     color:#272727;
     font-size:20px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
 }
 
 dt {
@@ -101,5 +109,12 @@ div.desc {
   .logo {
     width: 42.8%;
   }
+}
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* End of styles.css */
