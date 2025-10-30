@@ -8,14 +8,6 @@ h2 {
   font-family:'Times New Roman', Times, serif
 }
 
-.copyright {
-  color:#858585;
-  font-family:'Times New Roman', Times, serif;
-  font-size:14px;
-  font-weight:normal;
-  text-align: center
-}
-
 p {
     color:#272727;
     font-size:20px;
@@ -100,8 +92,25 @@ div.desc {
     width: 50%;
     padding: 10px;
   }
+  .copyright {
+  color:#858585;
+  font-family:'Times New Roman', Times, serif;
+  font-size:14px;
+  font-weight:normal;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  }
+
   .logo {
     width: 300px;
+  }
+  .img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
 }
 
@@ -109,12 +118,19 @@ div.desc {
   .logo {
     width: 42.8%;
   }
-}
-
-.img_center {
+  .img_center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  }
+  .copyright {
+  color:#858585;
+  font-family:'Times New Roman', Times, serif;
+  font-size:14px;
+  font-weight:normal;
+  text-align: center;
+  }
 }
+
 /* End of styles.css */
