@@ -24,6 +24,15 @@ dl {
     font-size:18px
 }
 
+td, th {
+  border: 1px solid #fac3c2;
+  text-align: left;
+  padding: 8px;
+}
+
+body {
+    padding-bottom: 2.5%;
+}
 
 a:link {
   color: #e06b67;
@@ -112,6 +121,13 @@ div.desc {
   margin-right: auto;
   width: 50%;
   }
+  table{
+  border-collapse: collapse;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  }
 }
 
 @media only screen and (max-width: 700px){
@@ -131,6 +147,15 @@ div.desc {
   font-weight:normal;
   text-align: center;
   }
+  table{
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  }
 }
+
+
 
 /* End of styles.css */
