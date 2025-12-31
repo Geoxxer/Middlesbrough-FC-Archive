@@ -1,0 +1,99 @@
+/* Base */
+h1 {
+  color:#cd3529;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+  color: #e06b67;
+}
+
+a:visited {
+  color: #be5d59;
+}
+
+a:hover {
+  color: #ff9794;
+}
+
+a:active {
+  color: #be5d59;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+}
+
+/* Full-width layout */
+.archive-layout {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 100vh;
+}
+
+/* Image */
+.archive-image {
+  margin: 0;
+  padding: 2rem;
+}
+
+.archive-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Info panel */
+.archive-info {
+  padding: 2rem;
+  border-left: 1px solid #e0e0e0;
+}
+
+.archive-info h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+/* Metadata styling (archive-like) */
+.metadata {
+  margin: 1.5rem 0;
+}
+
+.metadata dt {
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.metadata dd {
+  margin: 0 0 1rem 0;
+  font-size: 0.95rem;
+}
+
+/* Description */
+.description {
+  max-width: 40em;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .archive-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-info {
+    border-left: none;
+    border-top: 1px solid #e0e0e0;
+  }
+}
