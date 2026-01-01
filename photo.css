@@ -33,6 +33,15 @@ body {
   background: #fff;
 }
 
+  .tagline {
+  color:#858585;
+  font-size:16px;
+  font-weight:normal;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  }
+
 /* Full-width layout */
 .archive-layout {
   display: grid;

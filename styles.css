@@ -3,6 +3,15 @@ h1 {
   font-family:'Times New Roman', Times, serif
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
+html {
+  min-height: 100vh;
+  margin: 0;
+}
+
 h2 {
   color:#cd3529;
   font-family:'Times New Roman', Times, serif
@@ -31,6 +40,13 @@ td, th {
 }
 
 body {
+    background-image: url("/images/background.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 25%; /* or cover */
+    min-height: 100vh;
+    margin: 0;
+    padding: 8px;
     padding-bottom: 2.5%;
 }
 
@@ -48,6 +64,10 @@ a:hover {
 
 a:active {
   color: #be5d59;
+}
+
+div.gallery {
+  background-color: #fff
 }
 
 div.gallery img {
