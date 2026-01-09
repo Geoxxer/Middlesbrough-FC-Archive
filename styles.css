@@ -90,6 +90,12 @@ div.desc {
   box-sizing: border-box;
 }
 
+img.emoji {
+  width:1em;
+  pointer-events: none; 
+  vertical-align: -0.2em
+}
+
 .responsive {
   padding: 0 6px;
   float: left;

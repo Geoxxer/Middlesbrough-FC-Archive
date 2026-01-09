@@ -9,6 +9,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  window.onload = function() {      
+    twemoji.parse(document.body, 
+      {folder: 'svg', ext: '.svg'}
+    );
+  }
+</script>
 
 <body>
 <h1 class="center">
@@ -27,7 +35,7 @@
 <p class="center">
     On October 23rd, the website went through a major redesign to improve the user experience and make it easier to navigate.
     While the Full90 section remains a core part of the website, the redesign also introduced new sections such as People, History, and Articles to provide a more comprehensive archive of Middlesbrough FC's history.
-    The introduction of a homescreen which was also mobile friendly was a key part of the redesign, as it allows users to easily access different sections of the website from a single page.
+    The introduction of a home-screen which was also mobile friendly was a key part of the redesign, as it allows users to easily access different sections of the website from a single page.
     I also created new graphics and logos for the website so it would look much more aesthetically pleasing but made sure to keep the vintage feel of the website.
 </p>
 
@@ -42,5 +50,16 @@
     For those wondering, the website is hosted on GitHub and you can find the link to the website files <a href="https://github.com/Geoxxer/Middlesbrough-FC-Archive">here</a>.
     The website is purely built on just HTML and CSS and contains no JavaScript or backend code.
     That could change in the future but for now, I only know how to code in aforementioned languages (and quite primatively at that).
+    Github also allows you to download the website files and you can select a specific time/branch to download if you wish to see how the website has evolved over time.
+</p>
+
+<h2 class="center">
+    Some legal stuff
+</h2>
+
+<p class="center">
+    This website uses Twemoji for rendering emojis across all platforms.
+    Twemoji is an open-source project created by Twitter and is licensed under the Creative Commons Attribution 4.0 International License.
+    You can find more information about Twemoji and its license <a href="https://github.com/twitter/twemoji">here</a>.
 </p>
 </html>
