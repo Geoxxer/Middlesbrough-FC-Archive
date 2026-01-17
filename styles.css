@@ -17,6 +17,12 @@ h2 {
   font-family:'Times New Roman', Times, serif
 }
 
+.article_title {
+  color:#272727;
+  font-size:18px;
+  font-family:'Times New Roman', Times, serif;
+}
+
 p {
     color:#272727;
     font-size:20px;
@@ -32,6 +38,94 @@ dl {
     color:#272727;
     font-size:18px
 }
+
+.fixtures-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.team-fixtures {
+  border-radius: 10px;
+  padding: 1.25rem;
+  background: #f1f1f1;
+  color: #000000;
+}
+.team-fixtures.boro h2 {
+  color:#cd3529;
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+}
+.team-fixtures.ipswich h2 {
+  color:#0053a0;
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+}
+
+/* Team accent bars */
+.team-fixtures.boro {
+  border-left: 6px solid #cd3529;
+}
+
+.team-fixtures.ipswich {
+  border-left: 6px solid #0053a0;
+}
+
+.team-fixtures ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-fixtures li {
+  display: grid;
+  grid-template-columns: 60px 1fr 30px;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 0.95rem;
+}
+
+.team-fixtures li:last-child {
+  border-bottom: none;
+}
+
+.date {
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.opponent {
+  padding-left: 0.5rem;
+}
+
+.venue {
+  font-weight: 700;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.venue.home {
+  background: #2ecc71;
+  color: #ffffff;
+}
+
+.venue.away {
+  background: #e74c3c;
+  color: #ffffff;
+}
+
+
+
+.article-date,
+.article-author {
+    white-space: nowrap;
+}
+
 
 td, th {
   border: 1px solid #fac3c2;
@@ -110,6 +204,15 @@ img.emoji {
     width: 49.99999%;
     margin: 6px 0;
   }
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.75rem 0 1.25rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -125,6 +228,18 @@ img.emoji {
 }
 
 @media only screen and (min-width: 700px){
+  .article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.75rem 0 1.25rem;
+    padding-bottom: 0.5rem;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
   .center {
     margin: auto;
     width: 50%;
@@ -156,6 +271,9 @@ img.emoji {
   margin-left: auto;
   margin-right: auto;
   table-layout: fixed;
+  }
+  hr{
+    width: 50%;
   }
 }
 
