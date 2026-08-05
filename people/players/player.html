@@ -1,0 +1,36 @@
+<h1 class="center" id="playerName"></h1>
+
+<hr style="width:50%;">
+
+<p class="center" id="info"></p>
+
+<h2 class="center">Statistics</h2>
+<p class="center" id="stats"></p>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const legacy = parseInt(params.get("legacy"));
+
+fetch('players.json')
+  .then(res => res.json())
+  .then(data => {
+    const player = data.players.find(p => p.legacy_number === legacy);
+
+    if (!player) return;
+
+    document.getElementById("playerName").innerText =
+        `${player.legacy_number} – ${player.forename} ${player.surname}`;
+
+    document.getElementById("info").innerHTML = `
+      DOB: ${player.dob || "TBC"}<br>
+      Born: ${player.birth_city || "TBC"}, ${player.country || ""}<br>
+      Height: ${player.height || "TBC"}
+    `;
+
+    document.getElementById("stats").innerHTML = `
+      Appearances: ${player.appearances || "-"}<br>
+      Goals: ${player.goals || "-"}<br>
+      Assists: ${player.assists || "-"}
+    `;
+  });
+</script>
