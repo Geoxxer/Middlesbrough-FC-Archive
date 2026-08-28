@@ -1,36 +1,274 @@
-<h1 class="center" id="playerName"></h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Middlesbrough FC Archive</title>
+
+<meta name="description" content="Middlesbrough FC player archive.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<link rel="icon" href="/boro_lion.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/styles.css">
+
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+
+<h1 class="center">
+    <a href="/">
+        <img class="logo" src="/mfcarchive.svg" alt="Middlesbrough FC Archive">
+    </a>
+</h1>
+
+
+<h1 class="center" id="playerName">
+Loading...
+</h1>
+
 
 <hr style="width:50%;">
 
-<p class="center" id="info"></p>
 
-<h2 class="center">Statistics</h2>
-<p class="center" id="stats"></p>
+<div class="center">
+
+    <div class="playerInfobox">
+        <h2 id="boxName"></h2>
+        <img id="playerImage" class="playerImage">
+
+        <table>
+            <tr>
+                <th>Legacy Number</th>
+                <td id="legacy"></td>
+            </tr>
+            <tr>
+                <th>Born</th>
+                <td id="dob"></td>
+            </tr>
+            <tr>
+                <th>Place of birth</th>
+                <td id="birthplace"></td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td id="nationality"></td>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <td id="height"></td>
+            </tr>
+            <tr>
+                <th>Position</th>
+                <td id="position"></td>
+            </tr>
+            <tr>
+                <th>Appearances</th>
+                <td id="boxAppearances"></td>
+            </tr>
+            <tr id="boxGoalsRow">
+                <th id="boxGoalsLabel">Goals</th>
+                <td id="boxGoals"></td>
+            </tr>
+            <tr id="boxAssistsRow">
+                <th id="boxAssistsLabel">Assists</th>
+                <td id="boxAssists"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="playerArticle">
+        <div id="notes"></div>
+    <br>
+
+    <h2>
+        Statistics
+    </h2>
+
+    <table>
+        <tr>
+            <th>Appearances</th>
+            <th id="statsGoalsHeader">Goals</th>
+            <th id="statsAssistsHeader">Assists</th>
+        </tr>
+        <tr>
+            <td id="appearances"></td>
+            <td id="goals"></td>
+            <td id="assists"></td>
+        </tr>
+    </table>
+</div>
 
 <script>
-const params = new URLSearchParams(window.location.search);
-const legacy = parseInt(params.get("legacy"));
 
-fetch('players.json')
-  .then(res => res.json())
-  .then(data => {
-    const player = data.players.find(p => p.legacy_number === legacy);
+    // Get the legacy number from the URL
+    const params = new URLSearchParams(window.location.search);
+    const legacy = Number(params.get("legacy"));
 
-    if (!player) return;
+    // Load player and country data
+    Promise.all([
+        fetch("/data/players.json").then(res => res.json()),
+        fetch("/data/countries.json").then(res => res.json())
+    ])
+    .then(([playersData, countries]) => {
 
-    document.getElementById("playerName").innerText =
-        `${player.legacy_number} – ${player.forename} ${player.surname}`;
+        // Find the player
+        const player = playersData.players.find(
+            p => p.legacy_number === legacy
+        );
 
-    document.getElementById("info").innerHTML = `
-      DOB: ${player.dob || "TBC"}<br>
-      Born: ${player.birth_city || "TBC"}, ${player.country || ""}<br>
-      Height: ${player.height || "TBC"}
-    `;
+        if (!player) {
+            document.getElementById("playerName").innerText =
+                "Player not found";
+            return;
+        }
 
-    document.getElementById("stats").innerHTML = `
-      Appearances: ${player.appearances || "-"}<br>
-      Goals: ${player.goals || "-"}<br>
-      Assists: ${player.assists || "-"}
-    `;
-  });
+        // Get nationality information
+        const nationality = countries[player.nationality] || {
+            name: player.nationality,
+            emoji: "🌍"
+        };
+
+        // Get birth country information
+        const birthCountry = countries[player.birth_country] || {
+            name: player.birth_country,
+            emoji: "🌍"
+        };
+
+        // Page title
+        document.title =
+            `${player.forename} ${player.surname} | MFC Archive`;
+
+        // Player name
+        document.getElementById("playerName").innerText =
+            `${player.forename} ${player.surname}`;
+
+        document.getElementById("boxName").innerText =
+            `${player.forename} ${player.surname}`;
+
+        // Player image
+        document.getElementById("playerImage").src =
+            `images/${player.legacy_number}.jpg`;
+
+        document.getElementById("playerImage").onerror = function () {
+            this.style.display = "none";
+        };
+
+        // Basic information
+        document.getElementById("legacy").innerText =
+            player.legacy_number;
+
+        document.getElementById("dob").innerText =
+            player.dob || "Unknown";
+
+        document.getElementById("birthplace").innerHTML =
+            `${player.birth_city || "Unknown"}, <span class="country">${birthCountry.emoji} ${birthCountry.name}</span>`;
+
+        document.getElementById("nationality").innerHTML =
+            `${nationality.emoji} ${nationality.name}`;
+
+        document.getElementById("height").innerText =
+            player.height || "Unknown";
+
+        // Position
+        document.getElementById("position").innerText =
+            player.position || "Unknown";
+
+        // Check if the player is a goalkeeper
+        const isGoalkeeper =
+            player.position === "Goalkeeper";
+
+        // Appearances
+        document.getElementById("appearances").innerText =
+            player.appearances || "0";
+
+        document.getElementById("boxAppearances").innerText =
+            player.appearances || "0";
+
+        // Goalkeeper statistics
+        if (isGoalkeeper) {
+
+            // Info box
+            document.getElementById("boxGoalsLabel").innerText =
+                "Goals Conceded";
+
+            document.getElementById("boxGoals").innerText =
+                player.goals_conceded || "0";
+
+            document.getElementById("boxAssistsLabel").innerText =
+                "Clean Sheets";
+
+            document.getElementById("boxAssists").innerText =
+                player.clean_sheets || "0";
+
+            // Statistics table
+            document.getElementById("statsGoalsHeader").innerText =
+                "Goals Conceded";
+
+            document.getElementById("statsAssistsHeader").innerText =
+                "Clean Sheets";
+
+            document.getElementById("goals").innerText =
+                player.goals_conceded || "0";
+
+            document.getElementById("assists").innerText =
+                player.clean_sheets || "0";
+
+        } else {
+
+            // Outfield player statistics
+
+            // Info box
+            document.getElementById("boxGoalsLabel").innerText =
+                "Goals";
+
+            document.getElementById("boxGoals").innerText =
+                player.goals || "0";
+
+            document.getElementById("boxAssistsLabel").innerText =
+                "Assists";
+
+            document.getElementById("boxAssists").innerText =
+                player.assists || "0";
+
+            // Statistics table
+            document.getElementById("statsGoalsHeader").innerText =
+                "Goals";
+
+            document.getElementById("statsAssistsHeader").innerText =
+                "Assists";
+
+            document.getElementById("goals").innerText =
+                player.goals || "0";
+
+            document.getElementById("assists").innerText =
+                player.assists || "0";
+        }
+
+        // Biography
+        document.getElementById("notes").innerHTML =
+            player.notes || "No biography available.";
+
+        // Convert emojis to Twemoji images
+        twemoji.parse(document.body, {
+            folder: "svg",
+            ext: ".svg"
+        });
+
+    });
+
 </script>
+
+</body>
+
+</html>

@@ -19,19 +19,14 @@
 </script>
 
 <body>
-<h1>
+<h1 style="padding-left: 0.5em;">
     <a href="/index.html">
-    <img src="/images/managers.svg" alt="Middlesbrough FC Archive" style="width:300px;height:auto;">
+    <img src="/images/players.svg" alt="Middlesbrough FC Archive" style="width:300px;height:auto;">
     </a>
 </h1>
 
-<h2>
-    Players
-</h2>
-
 <div id="players" class="responsive-gallery"></div>
 
-    <!-- JavaScript: Load players from JSON -->
     <script>
         fetch('/data/players.json')
             .then(res => res.json())
@@ -40,14 +35,14 @@
 
                 data.players.forEach(player => {
                     const div = document.createElement('div');
-                    div.className = "responsive"; // matches your CSS for gallery layout
+                    div.className = "responsive"; 
 
                     div.innerHTML = `
                         <div class="gallery">
                             <a href="players/player.html?legacy=${player.legacy_number}">
-                                <img src="players/images/${player.legacy_number}.png" 
-                                     alt="${player.forename} ${player.surname}" 
-                                     onerror="this.src='/players/images/default.png'">
+                                <img src="players/images/${player.legacy_number}.jpg" 
+                                    alt="${player.forename} ${player.surname}" 
+                                    onerror="this.onerror=null; this.src='players/images/default.jpg';">
                             </a>
                             <div class="desc">
                                ${player.legacy_number} – ${player.forename} ${player.surname}

@@ -190,19 +190,28 @@ img.emoji {
   vertical-align: -0.2em
 }
 
+.responsive-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
 .responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+  width: 100%;
+}
+
+div.gallery {
+  background-color: #fff;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 700px) {
+  .responsive-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   div.gallery {
     margin-bottom: 1%;
-  }
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
   }
   .article-meta {
     display: flex;
@@ -216,8 +225,8 @@ img.emoji {
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
+  .responsive-gallery {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -273,7 +282,7 @@ img.emoji {
   table-layout: fixed;
   }
   hr{
-    width: 50%;
+    width: calc(50% - 10px);
   }
 }
 
@@ -343,4 +352,64 @@ img.emoji {
 }
 */
 
-/* End of styles.css */
+.country {
+    white-space: nowrap;
+}
+
+.playerInfobox {
+    width: 300px;
+    border: 1px solid #aaa;
+    background: #f8f8f8;
+    align-self: right;
+    float: right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+
+.playerInfobox h2 {
+    background:#fff1f1;
+    color:#cd3529;
+    text-align:center;
+    padding:10px;
+    margin:0;
+}
+
+.playerInfobox table {
+    width:100%;
+}
+
+.playerInfobox th {
+    background:#eee;
+    text-align:left;
+    width:45%;
+}
+
+.playerInfobox td,
+.playerInfobox th {
+    padding:8px;
+    border:1px solid #ddd;
+}
+
+.playerImage {
+    width:100%;
+    display:block;
+}
+
+.playerArticle {
+    font-size:20px;
+}
+
+.playerArticle table {
+    width:100%;
+}
+
+@media(max-width:700px)
+{
+.playerPage {
+    display:flex;
+    flex-direction:column-reverse;
+    width:100%;
+}
+
+}
