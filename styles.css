@@ -404,6 +404,12 @@ div.gallery {
     width:100%;
 }
 
+.countryFlag {
+    width: 1.2em;
+    height: auto;
+    vertical-align: middle;
+}
+
 @media(max-width:700px)
 {
 .playerPage {
