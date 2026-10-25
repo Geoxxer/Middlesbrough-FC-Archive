@@ -1,2 +1,4 @@
 code/
 .vscode/
+data\players_backup.json
+data\matches\template.json
