@@ -1,0 +1,1909 @@
+{
+  "season": "2026-27",
+  "club": "Middlesbrough",
+  "matches": [
+    {
+      "id": "2026-08-07-middlesbrough-wrexham",
+      "date": "2026-08-07",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "League Cup",
+      "round": "1",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Wrexham"
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "reportContent": "<p><strong>Will Lankshear's debut goal ensured it was a winning start to 2026/27 for Boro as Wrexham were seen off in the Carabao Cup.</strong></p><p>The first round tie was hanging in the balance until Lankshear struck a superb volley just after the hour.</p><p>It settled a tight encounter at the Riverside and deservedly booked Boro’s place in the draw for round two on Monday.</p><p>Both sides had sights of goal in an even first half. Wrexham could have opened the scoring as early as the third minute, but Ollie Rathbone was unable to get clean contact on an inviting ball from the left.</p><p>Lankshear was a constant threat to the visitors’ backline and had his first opportunity thanks to a beauty of a cross from fellow summer arrival Sebastian Berhalter. The American’s peach of a delivery found the striker in the centre of the box, only for Danny Ward to make a stunning reaction stop from point-blank range.</p><p>Boro had two strong penalty appeals waved away in the first half while at the other end, Sol Brynn made a superb save with his leg to deny Sam Smith.</p><p>Rathbone also drilled narrowly wide as Wrexham continued their bright spell, but Boro ended the half the stronger and went close with a Lankshear header which narrowly cleared the crossbar.</p><p>Kim Hellberg’s side stepped it up after the break, with Lankshear, Morgan Whittaker and Berhalter all having efforts within 15 minutes of the restart.</p><p>The breakthrough arrived in the 61st minute, and in some style. Jeremy Sarmiento’s cross from the left was headed deftly across the area by Berhalter to Lankshear, who hooked it into the bottom corner on the volley to demonstrate his quality in front of goal.</p><p>Whittaker and substitute George Edmundson had efforts narrowly off target as the Teessiders looked to press home their advantage quickly.</p><p>The post was crashed by Whittaker three minutes from the end but a second goal was not required as our passage to round two was secured.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 61,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Sebastian Berhalter",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2649027"
+      ]
+    },
+    {
+      "id": "2026-08-15-middlesbrough-lincoln-city",
+      "date": "2026-08-15",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "1",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Lincoln City"
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "reportContent": "<p><strong>Will Lankshear's double sealed a dramatic opening day win as Boro came from behind against Lincoln City.</strong></p><p>Kim Hellberg’s side fell behind early on at a sold-out Riverside through Adam Reach’s early strike.</p><p>The home team took control as the match progressed and the leveller came 17 minutes into the second half as Lankshear finished well from close range.</p><p>Lankshear struck again on the stroke of 90 minutes as Hellberg's men took maximum points.</p><p>Backed by a bouncing Riverside crowd, Boro started brightly and Luke Ayling cracked an effort wide from distance.</p><p>Lincoln carried strong opening day momentum of their own, though, and quickly gained a foothold before taking the lead on 12 minutes.</p><p>Tendayi Darikwa broke away down the right and delivered a low ball across the area to former Boro man Reach, who pierced it into the bottom corner with the sweetest of strikes.</p><p>In an ultra-competitive first half in which Lincoln demonstrated their capability for the Championship fight, Boro had the better of possession but had to battle for clear-cut openings.</p><p>Adilson Malanda and Lankshear both saw headers saved by George Wickens, who also produced a tremendous reaction stop to deny Kyle Joseph.</p><p>Boro needed to remain alert, with Luke Ayling making a brave block with his head to keep out a shot from Dom Jefferies.</p><p>But the best chance of a second goal in the half went the way of the Teessiders when Joseph tricked his way in down the left and sent an inviting ball across the face of goal which Morgan Whittaker and Lankshear were just unable to get on the end of.</p><p>Boro had began to exert their quality in the latter stages of the first half and that pattern continued into the second.</p><p>Lankshear had two openings within three minutes of the restart, first muscling past a defender and drawing a save from Wickens, and then prodding wide from a Neto Borges cross.</p><p>The momentum appeared to be with Boro, who went close again when Whittaker’s free-kick landed on the roof of the net.</p><p>Lincoln continued to hold the one-goal advantage, though, and had a sniff of a second as Tom Hamer rose highest in the area, but his header went over.</p><p>Boro were undeterred, and scored the equaliser their play had been threatening when Callum Brittain sent in a dangerous ball from the right. Lincoln got it half-clear but only as far as Leo Castledine, whose sweet strike was met by Lankshear in the six-yard box as he sent home a poacher’s finish.</p><p>A triple change had already been planned prior to the goal and Boro struck with it, changing things up in an attempt to press home their dominance.</p><p>There could have been a quickfire double, but Whittaker’s 20-yard drive was saved by Wickens.</p><p>Jeremy Sarmiento, another player introduced in the second half, also drew a save from the Lincoln goalkeeper, before Whittaker headed wide from an Ayling cross.</p><p>The Imps dropped deeper as they tried to deny Boro space in attacking areas, and openings began to dry up.</p><p>The winner almost came with three minutes left as the ball broke to Lankshear from a corner, but his deflected strike hit the post and the follow-up from Malanda went over.</p><p>Finally, Boro's reward came on the stroke of 90 minutes as substitute Riley McGree jinked in behind on the right and sent a low ball across which Lankshear converted from close range.</p><p>That proved to be the last significant action as the Riverside erupted.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "31,487",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 12,
+            "addedTime": null,
+            "team": "Lincoln City",
+            "scorer": "Adam Reach",
+            "assist": "Tendayi Darikwa",
+            "ownGoal": false
+          },
+          {
+            "minute": 62,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 90,
+            "addedTime": 1,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Riley McGree",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647254",
+        "https://www.mfc.co.uk/news/2026/august/15/match-review--boro-2-lincoln-city-1/"
+      ]
+    },
+    {
+      "id": "2026-08-22-blackburn-rovers-middlesbrough",
+      "date": "2026-08-22",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "2",
+      "home": {
+        "name": "Blackburn Rovers"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "reportContent": "<p><strong>Boro were beaten on the road as Blackburn Rovers came from behind at Ewood Park.</strong></p><p>An entertaining first half was edged by Boro, with Jeremy Sarmiento’s first goal for the club handing Kim Hellberg’s side an early advantage.</p><p>Blackburn hit back with two goals inside the first 10 minutes of the second half and 2-1 is how it remained as Boro tasted defeat for the first time in 2026/27.</p><p>There were four changes to the Boro team which started the opening-day win over Lincoln City, with Max Arfsten, Myles Peart-Harris, Aidan Morris and Sarmiento brought into the XI.</p><p>An open start to the game saw chances at both ends.</p><p>A probing Boro move almost led to an early gilt-edged chance for Peart-Harris, but Blackburn defender Sean McLaughlin reacted quickly to avert the danger.</p><p>Blackburn’s response drew an excellent save from Radek Vitek in the Boro goal. Ryan Alebiosu was played through on the right of the box and drilled across goal, only for the Czech stopper to stretch out his right foot and clear.</p><p>Boro were fluid in possession and that confidence produced the breakthrough in the 12th minute. Patient build-up eventually led to Morgan Whittaker collecting the ball on the edge of the area. He threaded it through to a darting Sarmiento, who slid into the bottom corner with a clinical finish for his first Boro goal.</p><p>Hellberg’s men were dominant in possession, but Blackburn certainly presented a threat.</p><p>Ryoya Morishita skied a presentable chance from just outside the box and Luke Ayling made a tremendous goal-line clearance to deny the same player.</p><p>Vitek was called on again to save from Dapo Afolayan two minutes before half-time as we retained our advantage into the interval.</p><p>Boro had a strong shout of a penalty within two minutes of the restart following a tangle of legs involving Will Lankshear, but the appeals were waved away.</p><p>Less than two minutes later, our lead was wiped out at Harry Pickering’s corner was headed in by Andri Gudjohnsen for the hosts.</p><p>It was another breathless opening to a half, and that continued as Boro mounted a quick response.</p><p>Lankshear had a shot deflected wide before Peart-Harris and Whittaker both had headers saved by Balazs Toth in the Rovers goal.</p><p>Boro were pushing for what felt like a crucial third goal of the game, but it went the way of the home side on 55 minutes.</p><p>After Boro were unable to clear the danger, Blackburn kept the ball alive and Alebiosu’s deft cross found the head of Todd Cantwell, who powered it past Vitek.</p><p>As Blackburn protected their newly-found advantage, space was harder to come by for Boro, who probed in search of openings for an equaliser.</p><p>Callum Brittain sliced wide and Aidan Morris had a goalbound left-foot drive blocked in two of the more productive forays forward.</p><p>There was also a curled effort from Whittaker which deflected over the top as the game reached its closing stages, but there was to be no way through as Blackburn took the points.</p><p>Boro are back in action on Tuesday, away to Doncaster Rovers in the second round of the Carabao Cup.</p>",
+      "details": {
+        "stadium": "Ewood Park",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 12,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Jeremy Sarmiento",
+            "assist": "Morgan Whittaker",
+            "ownGoal": false
+          },
+          {
+            "minute": 49,
+            "addedTime": null,
+            "team": "Blackburn Rovers",
+            "scorer": "Andri Gudjohnsen",
+            "assist": "Harry Pickering",
+            "ownGoal": false
+          },
+          {
+            "minute": 55,
+            "addedTime": null,
+            "team": "Blackburn Rovers",
+            "scorer": "Todd Cantwell",
+            "assist": null,
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647263",
+        "https://www.mfc.co.uk/news/2026/august/22/match-review--blackburn-rovers-2-boro-1/"
+      ]
+    },
+    {
+      "id": "2026-08-25-doncaster-rovers-middlesbrough",
+      "date": "2026-08-25",
+      "kickoff": "19:30",
+      "type": "competitive",
+      "competition": "League Cup",
+      "round": "2",
+      "home": {
+        "name": "Doncaster Rovers"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "reportContent": "<p><strong>A controlled performance saw Boro through to the third round of the Carabao Cup.</strong></p><p>Kyle Joseph, Will Lankshear and Jeremy Sarmiento’s goals proved the difference against a Doncaster Rovers side who had threatened in the early stages.</p><p>Joseph struck for the first time in Boro colours with a superb acrobatic effort in the first half after Kim Hellberg’s men took control.</p><p>The win was all but wrapped up 12 minutes from the end by substitute Lankshear, who scored for the fourth time this season with a close-range finish.</p><p>Sarmiento added the gloss to the scoreline in the closing stages with a brilliant chipped finish to finish the job in style, with Doncaster's stoppage time goal no more than a consolation.</p><p>The Teessiders now await the draw for round three on Wednesday.</p><p>Hellberg named a strong team for the trip to Club Doncaster Sports Village, with five changes made to the XI which started at Blackburn Rovers on Saturday. Sol Brynn, Alfie Jones, Leo Castledine, Joseph and Neto Borges were the players brought in.</p><p>Boro were forced to withstand a flying start from the hosts, although Sebastian Berhalter sent an early volley whistling narrowly over.</p><p>Sol Brynn saved twice from Alfie May and once from Isaac Hutchinson to keep us level, before Boro started to take control around the half-hour mark.</p><p>Morgan Whittaker was at the heart of much of it as Hellberg’s men began to turn the crew.</p><p>He had two fierce strikes beaten away by Josh Clarke, and also picked out Berhalter, who tested the home goalkeeper.</p><p>Boro were knocking on the door, and the breakthrough came on 34 minutes. Jeremy Sarmiento clipped an inviting ball into the centre and Joseph swivelled to send an acrobatic scissors kick into the bottom corner. It was his first goal since his summer arrival from Hull City.</p><p>We continued to press in the minutes which followed the opener, with Berhalter curling over and Joseph having two bites at the cherry from a Max Arfsten cross before Clarke gathered.</p><p>Boro continued to control proceedings after half-time, although Bayley McCann did threaten an equaliser early in the second half as he fired over.</p><p>At the other end, Whittaker crashed an effort over the top and Castledine had a strike deflected over as the Teessiders looked to kill the tie.</p><p>Whittaker also had a strong penalty appeal rejected after a weaving run before Ashley Phillips was introduced for his Boro debut on 72 minutes.</p><p>He was brought on alongside former Tottenham Hotspur team-mate Lankshear, who had scored the winner for Boro in the previous round against Wrexham.</p><p>Lankshear was sniffing an opportunity to add to his Boro tally, and it came with 12 minutes remaining as Whittaker’s ball across the area fell invitingly into his path. The outcome was inevitable as the striker crashed home from close range.</p><p>There could have been a third for Boro when Clarke did well to parry from Whittaker and only an excellent block denied Sarmiento a second goal in as many games.</p><p>He was not to be denied with three minutes remaining, though. Phillips sent a superb ball over the top and Sarmiento did the rest with an outstanding chipped finish from 20 yards.</p><p>Hutchinson finished well two minutes into stoppage time to pull a goal back for Doncaster, but it was no more than a consolation.</p><p>Boro are back in action on Saturday, at home to West Bromwich Albion in the Sky Bet Championship.</p>",
+      "details": {
+        "stadium": "Club Doncaster Sports Village",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 34,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Kyle Joseph",
+            "assist": "Jeremy Sarmiento",
+            "ownGoal": false
+          },
+          {
+            "minute": 78,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 87,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Jeremy Sarmiento",
+            "assist": "Ashley Phillips",
+            "ownGoal": false
+          },
+          {
+            "minute": 90,
+            "addedTime": 2,
+            "team": "Doncaster Rovers",
+            "scorer": "Isaac Hutchinson",
+            "assist": "Jack Senior",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2679880",
+        "https://www.mfc.co.uk/news/2026/august/25/match-review--doncaster-rovers-1-boro-3/"
+      ]
+    },
+    {
+      "id": "2026-08-29-middlesbrough-west-bromwich-albion",
+      "date": "2026-08-29",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "3",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "West Bromwich Albion"
+      },
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "reportContent": "<p><strong>Deadly Will Lankshear was at the double again as Boro secured an excellent three points against West Bromwich Albion.</strong></p><p>James Morrison’s impressive visitors posed a real threat to the Teessiders, but Lankshear struck twice to help deliver another home victory for Boro, before Alfie Jones made the result safe late on.</p><p>The striker put Boro in front early in the second half, pouncing from close range after Morgan Whittaker’s strike had come back off the post.</p><p>West Brom equalised on 65 minutes but Kim Hellberg’s men were not to be denied, with Lankshear scoring another poacher’s goal soon after to take his tally for the season up to six.</p><p>Substitute Jones sealed the points three minutes before the end as Boro made it three competitive Riverside victories from three.</p><p>There were six changes to the Boro team which started the midweek Carabao Cup win over Doncaster Rovers, with Radek Vitek, Callum Brittain, Lankshear, Riley McGree, Aidan Morris and Adilson Malanda brought into the XI.</p><p>McGree made a near-instant impact, picking up the ball in pockets of space behind the West Brom midfield.</p><p>One of those occasions came in the sixth minute when Baggies goalkeeper Max O’Leary misplaced a pass and the ball fell to the Australian 25 yards from goal, but his dinked effort drifted wide.</p><p>The first half was easy on the eye, but low on clear-cut opportunities.</p><p>There was an opening for West Brom when Jayson Mulumby slipped a ball through to Felix Myhre, who slid it past the opposite post.</p><p>McGree had a similar chance at the other end after being played in by Jeremy Sarmiento, but his shot on the stretch went wide, while Lankshear had a strong strike blocked on the stroke of half-time.</p><p>Sebastian Berhalter was introduced at the break and Boro came out with renewed energy, injecting added pace into their attacks.</p><p>The reward came inside three minutes of the restart. Whittaker brought the ball onto his left foot and cracked a shot against the post. It then bounced off the back of O’Leary’s head and invitingly into the path of Lankshear, who nodded in his fifth goal of the season from close range.</p><p>Boro sensed blood and there were chances for a quickfire second.</p><p>A strong penalty appeal for handball was waved away and O’Leary was forced into a flying save from his own player, Ousmane Diakite, after Boro had won the ball high up the pitch.</p><p>A sliding block denied Lankshear after he was played in down the right and O’Leary also did brilliantly to thwart Brittain, whose bullet header was destined for the roof of the net.</p><p>Boro were hit by a sucker punch on 65 minutes as West Brom levelled. Isaac Price’s inch-perfect cross from the left found the head of Jimmy-Jay Morgan, whose deft header found the net via the underside of the crossbar.</p><p>The setback was a test of Boro’s character, and the home side’s response was emphatic.</p><p>Kyle Joseph was introduced from the bench and was an immediate nuisance to the Baggies’ backline.</p><p>First he had a shot blocked after being found by Malanda, and then he played an integral role as Lankshear put Boro back in front.</p><p>Berhalter set Joseph away down the left of the area and after his strike was blocked by the legs of O’Leary, Lankshear was again in the right place at the right time to prod home.</p><p>Price saw a dangerous cross pushed wide by Radek Vitek and Neto Borges made a tremendous, brave block from Rabby Nzingoula to keep Boro in front heading into the closing stages.</p><p>Any nerves were eased three minutes before the end when Berhalter’s free-kick was helped across by Joseph and Ayling before Jones turned it in from close range in front of the South Stand.</p><p>That proved to be the last significant action as Boro secured an impressive three points.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "29,571",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 48,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 65,
+            "addedTime": null,
+            "team": "West Bromwich Albion",
+            "scorer": "Jimmy-Jay Morgan",
+            "assist": "Isaac Price",
+            "ownGoal": false
+          },
+          {
+            "minute": 73,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 87,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Alfie Jones",
+            "assist": "Luke Ayling",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647280",
+        "https://www.mfc.co.uk/news/2026/august/29/match-review--boro-3-west-brom-1/"
+      ]
+    },
+    {
+      "id": "2026-09-02-burnley-middlesbrough",
+      "date": "2026-09-02",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "4",
+      "home": {
+        "name": "Burnley"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "reportContent": "<p><strong>Aidan Morris broke his duck in spectacular style – but Burnley battled back to deny Boro victory at Turf Moor.</strong></p><p>Morris’ sweet left-foot drive midway through the first half gave Kim Hellberg’s side a deserved lead, and the American hit the post just before half-time with another tremendous strike.</p><p>Burnley struck back with an equaliser nine minutes into the second half and although both sides had chances for a winner, there was nothing to separate them at the final whistle.</p><p>Alfie Jones, Sebastian Berhalter and Kyle Joseph were brought into the Boro line-up as Hellberg made three changes to the team which started Saturday’s win over West Brom.</p><p>Will Lankshear came into the game full of confidence after his two-goal haul against the Baggies, and he had an early chance for a seventh strike of the season.</p><p>Radek Vitek’s long pass bounced over the Burnley defence and Lankshear raced onto it, but the ball did not quite fall for the in-form striker and he was only able to nudge it wide under pressure from home goalkeeper Max Weiss.</p><p>Boro thought they should have had a penalty when Lankshear appeared to be hauled to the ground by Connor Roberts while at the other end, Radek Vitek’s strong hands denied Dastan Satpayev.</p><p>Hellberg’s men looked generally comfortable in the game, before taking the lead in style midway through the first half.</p><p>The breakthrough arrived in spectacular fashion as Morris broke his Boro duck with a sensational finish, rifling into the top corner from the edge of the box with his left foot.</p><p>Boro’s players were being invited to shoot from distance and the next to have a go was Adilson Malanda, whose low strike was held by Weiss.</p><p>Vitek was again called on shortly afterwards, springing out of his penalty area to nick the ball away from Andreas Hountondji as the Burnley man threatened to run in on goal.</p><p>But it was Boro who looked the more dangerous, and Morris almost made it an incredible double when he advanced forward and crashed a cutting drive against the outside of the post from 25 yards.</p><p>We went close again on the stroke of half-time. Lankshear was found down the right-hand side of the box, hurdled a challenge and fired a ball across goal which Riley McGree sent wide on the stretch.</p><p>Burnley responded well at the start of the second half and equalised nine minutes after the restart. Space opened up for Ugo Raghouber as he carried the ball through the centre of the pitch, and he used it to his full advantage by curling home from 20 yards.</p><p>The hosts had the momentum and could have had a quickfire double, but Vitek saved superbly with his foot from Satpayev.</p><p>Boro settled things down and gradually looked the likelier to score again, although substitute Aaron Ramsey did go close for Burnley, firing narrowly wide from distance.</p><p>The closing stages were something of a stalemate, with Boro dominant in possession but unable to carve out a clear-cut opening.</p><p>It ended with the teams sharing the spoils, with Boro taking their tally to seven points from the opening four games.</p><p>QPR are the opposition on Saturday at Loftus Road.</p>",
+      "details": {
+        "stadium": "Turf Moor",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 23,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Aidan Morris",
+            "assist": "Sebastian Berhalter",
+            "ownGoal": false
+          },
+          {
+            "minute": 54,
+            "addedTime": null,
+            "team": "Burnley",
+            "scorer": "Ugo Raghouber",
+            "assist": "Zeki Amdouni",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647294",
+        "https://www.mfc.co.uk/news/2026/september/02/match-review--burnley-1-boro-1/"
+      ]
+    },
+    {
+      "id": "2026-09-05-queens-park-rangers-middlesbrough",
+      "date": "2026-09-05",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "5",
+      "home": {
+        "name": "Queens Park Rangers"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "reportContent": "<p><strong>Will Lankshear was Boro’s match-winner as Kim Hellberg’s side won a hard-fought encounter with Queens Park Rangers.</strong></p><p>Lankshear struck his seventh goal of the season in the 20th minute to hand the Teessiders a deserved advantage.</p><p>Boro had the better of the game’s remaining chances but previously unbeaten QPR did not go lightly and more than kept their visitors honest.</p><p>Hellberg’s men held out, though, to cap off a hugely positive week and continue their positive momentum in the capital.</p><p>Ashley Phillips and Max Arfsten were brought into the Boro side in place of Luke Ayling and Alfie Jones as the Teessiders looked to build on the midweek draw at Burnley.</p><p>Boro were the better side in the first half against unbeaten Rangers, and deserved their half-time advantage.</p><p>Kyle Joseph nudged a decent early chance wide and Riley McGree saw a low strike held by Pierce Charles in the QPR goal.</p><p>The breakthrough came on 20 minutes as Lankshear provided the clinical touch to a potent move, sliding in at the back post after Callum Brittain had fired a superb ball across.</p><p>Joseph had another shot deflected over as Boro looked to press home their advantage, and there was also an opening in stoppage time for Lankshear, who was denied by a charging Pierce.</p><p>There was an early chance at the start of the second half for Lankshear, who cut onto his left foot before being thwarted by an excellent Dennis Cirkin block.</p><p>But it wasn’t an easy start to the second half for the visitors as QPR began to battle back.</p><p>Radek Vitek needed sharp reflexes to keep out a Rumarn Burrell volley, and also made a tremendous clearance with his leg from Paul Smyth.</p><p>Koki Saito twice threatened from range, whistling one effort wide and another over, but Boro did appear to largely be taming the home side’s advances.</p><p>Tommy Conway was part of a double Hellberg change early in the second half and he looked set to extend Boro’s advantage just beyond the hour. He was sent scampering through on goal from halfway and only had Charles to beat, but the goalkeeper stretched out his leg to make an impressive save with his foot.</p><p>There was a similar situation at the other end soon after when Burrell raced away, but Neto Borges was equal to him, racing back to prevent a shot just as the striker bore down on goal.</p><p>Boro made another double change on 72 minutes and one of the players brought on, Ayling, made an immediate impact as he won the ball high up the pitch and beat his man before being denied by Charles.</p><p>QPR began committing more bodies forward in search of an equaliser and almost had one 13 minutes from the end, with Harvey Vale crashing a left-foot strike against the post.</p><p>Substitute Tarik Lamptey also fired over towards the end but Boro held out for a hard-fought three points on the road.</p>",
+      "details": {
+        "stadium": "MATRADE Loftus Road",
+        "attendance": "17,007",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 20,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Callum Brittain",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647304"
+      ]
+    },
+    {
+      "id": "2026-09-08-crystal-palace-middlesbrough",
+      "date": "2026-09-08",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "League Cup",
+      "round": "3",
+      "home": {
+        "name": "Crystal Palace"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "reportContent": "<p><strong>Boro’s Carabao Cup run came to an end as Crystal Palace ran out 3-0 winners at Selhurst Park.</strong></p><p>Jorgen Strand Larsen’s headed brace either side of half-time handed the Premier League side control and substitute Daichi Kamada sealed their passage into round three with a superb dinked finish.</p><p>Kim Hellberg’s men had asserted themselves well in the game and had the better of possession throughout, but Palace’s clinical edge proved decisive.</p><p>Sam Byram and Amario Cozier-Duberry were handed their Boro debuts at Selhurst Park, with Sol Brynn, Alfie Jones, Tommy Conway, Luke Ayling, David Strelec and Myles Peart-Harris also brought into the starting XI.</p><p>Boro were bright throughout the first half and largely dominated the ball, but were unable to seriously trouble Palace goalkeeper Walter Benitez.</p><p>He easily saved an early Cozier-Duberry curler and watched as David Strelec later struck wide from the edge of the box.</p><p>Benitez did well to beat away a Callum Brittain drive, and the Boro right-back then fired a free-kick into the side netting.</p><p>Palace demonstrated their Premier League quality with a swift counter. The ball was played in from the right to Yeremy Pino, whose first-time shot was deflected and brilliantly tipped away by Brynn.</p><p>Boro almost grabbed the lead with 10 minutes to go until half-time when Cozier-Duberry brought the ball onto his left foot and whipped a wicked low strike just past the post.</p><p>Less than two minutes later, it was Palace who broke the deadlock as Strand Larsen nodded in an Oscar Mingueza cross from close range.</p><p>Boro would have counted themselves unfortunate to be behind at half-time, but confident that a similar showing in the second half could result in a way back into the tie.</p><p>Those hopes were weakened seven minutes after the restart when Strand Larsen headed in for a second time, this time connecting sweetly to a Ben Chilwell cross.</p><p>The Teessiders’ heads did not drop, and Hellberg’s side searched for a lifeline. Aidan Morris eyed an opportunity to force one when he struck a low 20-yard drive which Benitez parried before kicking away from the danger zone.</p><p>The game was taken out of Boro’s reach 18 minutes before the end. Strand Larsen’s defence-splitting pass found substitute Kamada, and the Japanese international showed his class with a dinked finish into the top corner from the edge of the box.</p><p>Boro continued to search for goals, and Cozier-Duberry was a consistent bright spark on the right. He drew another sharp save from Benitez with a snap-shot from the right.</p><p>Peart-Harris curled one narrowly wide from 20 yards in the closing stages, and Will Lankshear was denied what would have been a tap-in by a last-ditch interception, but there was to be no way through for the Teessiders.</p><p>Boro are back in action on Saturday, at home to Norwich City in the Sky Bet Championship.</p>",
+      "details": {
+        "stadium": "Selhurst Park",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 37,
+            "addedTime": null,
+            "team": "Crystal Palace",
+            "scorer": "Jørgen Strand Larsen",
+            "assist": "Óscar Mingueza",
+            "ownGoal": false
+          },
+          {
+            "minute": 53,
+            "addedTime": null,
+            "team": "Crystal Palace",
+            "scorer": "Jørgen Strand Larsen",
+            "assist": "Ben Chilwell",
+            "ownGoal": false
+          },
+          {
+            "minute": 72,
+            "addedTime": null,
+            "team": "Crystal Palace",
+            "scorer": "Daichi Kamada",
+            "assist": "Jørgen Strand Larsen",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2685168",
+        "https://www.mfc.co.uk/news/2026/september/08/match-review--crystal-palace-3-boro-0/"
+      ]
+    },
+    {
+      "id": "2026-09-12-middlesbrough-norwich-city",
+      "date": "2026-09-12",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "6",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Norwich City"
+      },
+      "score": {
+        "home": 4,
+        "away": 3
+      },
+      "reportContent": "<p><strong>Ashley Phillips scored a dramatic late winner as Boro won a seven-goal thriller at the Riverside.</strong></p><p>Phillips struck in second half stoppage time to settle a topsy-turvy encounter which saw goalmouth action from the first minute.</p><p>Boro fell behind inside the first 52 seconds but roared back, with Sebastian Berhalter scoring a quickfire equaliser and league debutant Amario Cozier-Duberry firing us ahead on seven minutes.</p><p>Berhalter scored his second nine minutes before half-time to put Kim Hellberg’s side into a commanding position, but Norwich battled back after the break.</p><p>They scored twice in five second half minutes to get back on level terms and the game looked to be heading for a draw until Phillips' brilliant intervention.</p><p>Cozier-Duberry was handed his first league start for Boro, having impressed on his debut in the Carabao Cup defeat to Crystal Palace in midweek.</p><p>The Brighton &amp; Hove Albion loanee was heavily involved from the off and was involved in a Boro move which could have resulted in the opener inside 20 seconds, with Berhalter narrowly failing to provide a decisive touch.</p><p>Norwich raced down the other end and Mohamed Toure slammed past Radek Vitek via a kiss of the post with just 50 seconds on the clock as the visitors hit the front.</p><p>That provoked an electric response from Boro as the Riverside’s noise levels roared up.</p><p>Tommy Conway stole the ball inside the Norwich box and after it ricocheted back to him off Will Lankshear he calmly found Berhalter, who rifled in off the bar for his first Boro goal.</p><p>That was with less than four minutes played and the swift turnaround was complete in the seventh, with Conway again at the heart of it.</p><p>This time he tore away down the left and played it inside to Cozier-Duberry, whose precise left-foot strike beat Norwich goalkeeper Vladan Kovacevic at his near post as he marked his Riverside debut in style.</p><p>A fourth goal inside the first 10 minutes almost came, but Vitek was alert and stretched out a strong left hand to deny Andre Brooks.</p><p>Boro repeatedly won possession inside the Norwich half in search of more goals.</p><p>Conway and Cozier-Duberry both went close, with the former nudging narrowly wide from a superb Neto Borges cross and the latter firing into the side netting.</p><p>Riley McGree chipped not far wide from halfway after Kovacevic had half-cleared a long throw down the field from Vitek, but Boro’s third arrived not long after.</p><p>Callum Brittain’s shot from the right of the area took a deflection and arrowed its way towards Berhalter, who swivelled as he helped it in its way past Kovacevic to add his second of the afternoon.</p><p>The American midfielder almost made it a remarkable hat-trick before half-time, but his dipping curler bounced wide.</p><p>In comparison to what had come before it, the second half begin in relatively sedate fashion as Boro kept their opponents at arm’s length.</p><p>Neto Borges almost got himself on the scoresheet just before the hour as he weaved his way into a shooting position and hit one just past the upright.</p><p>Lankshear had our second attempt of the afternoon from the halfway line, but this time Kovacevic scampered back to keep it out.</p><p>Norwich had remained in the game and halved the deficit with 20 minutes remaining as substitute Jovon Makama finished well.</p><p>The Canaries made it a quickfire double to level the scores. Vitek brilliantly denied Anthony Musaba with his foot after the Norwich man had raced away down the left, but the ball stayed alive and fell to Jacob Wright, who hammered it into the roof of the net.</p><p>Norwich were now the team in the ascendancy and Wright twice eyed what might have been a winner, but he was off-target with both efforts.</p><p>The vital, dramatic moment came less than a minute into stoppage time as Phillips sparked scenes of pandemonium, finishing from close range after Lankshear's strike had gone across the area.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "29,697",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 1,
+            "addedTime": null,
+            "team": "Norwich City",
+            "scorer": "Mohamed Touré",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 4,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Sebastian Berhalter",
+            "assist": "Tommy Conway",
+            "ownGoal": false
+          },
+          {
+            "minute": 7,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Amario Cozier-Duberry",
+            "assist": "Tommy Conway",
+            "ownGoal": false
+          },
+          {
+            "minute": 36,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Sebastian Berhalter",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 70,
+            "addedTime": null,
+            "team": "Norwich City",
+            "scorer": "Jovon Makama",
+            "assist": "Jacob Wright",
+            "ownGoal": false
+          },
+          {
+            "minute": 75,
+            "addedTime": null,
+            "team": "Norwich City",
+            "scorer": "Jacob Wright",
+            "assist": "Paris Maghoma",
+            "ownGoal": false
+          },
+          {
+            "minute": 90,
+            "addedTime": 1,
+            "team": "Middlesbrough",
+            "scorer": "Ashley Phillips",
+            "assist": null,
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647326",
+        "https://www.mfc.co.uk/news/2026/september/12/match-review--boro-4-norwich-city-3/"
+      ]
+    },
+    {
+      "id": "2026-09-15-middlesbrough-millwall",
+      "date": "2026-09-15",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "7",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Millwall"
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "reportContent": "<p><strong>There was more Riverside drama as second half goals from Amario Cozier-Duberry and Will Lankshear earned Boro a point against Millwall.</strong></p><p>Three days on from their dramatic 4-3 win over Norwich City, Kim Hellberg’s side needed to dig deep again after finding themselves two goals down at half-time.</p><p>Their fighting qualities were on show again as an early second half onslaught reaped dividends, with Cozier-Duberry’s deflected strike and Lankshear’s header ensuring we were back on terms just after the hour.</p><p>Boro pushed for a second thrilling week in less than a week, but a third goal was not forthcoming as Millwall took a point back to London.</p><p>There were two changes to the Boro team which beat Norwich City in a 4-3 thriller, with Ashley Phillips and Luke Ayling replacing the injured Alfie Jones and Adilson Malanda in the back-line.</p><p>Despite being dominant in possession – Boro had more than 80% of the ball in the first half – Millwall took a 2-0 lead into half-time.</p><p>It had started so promisingly for the hosts. Neto Borges saw a goalbound shot blocked by Caleb Taylor and Cozier-Duberry dug away a shot which Millwall goalkeeper Max Crocombe did well to cling on to.</p><p>But it was the Lions who took the lead on 11 minutes. Camiel Neghli launched a ball down the left channel and Tairyk Arconte was quickest to it, cutting inside onto his left foot and hitting a low shot which went in off the post.</p><p>Radek Vitek kept out a Neghli header from a Lyndon Dykes long throw as Millwall demonstrated their prowess from dead balls.</p><p>Boro almost got on level terms in the 19th minute as Cozier-Duberry’s cross from the right found Lankshear at the back post and his first-time effort was helped over by Crocombe.</p><p>The Millwall goalkeeper was relieved to clutch the ball after the resulting corner was helped across by Phillips and backheeled by Riley McGree before taking two deflections on its way towards goal.</p><p>The Teessiders were beginning to knock on the door, and Lankshear was denied a tap-in from a wicked Sebastian Berhalter ball by a last-ditch interception.</p><p>A second sucker punch arrived at the other end nine minutes before half-time as Jenson Metcalfe’s corner was helped on by Taylor and forced over the line by Dykes from close range.</p><p>Hellberg’s response was to make a triple change at half-time, and his team’s response was emphatic.</p><p>Cozier-Duberry signalled Boro’s intentions less than three minutes into the second half, rifling a shot which Crocombe did well to beat away.</p><p>Moments later, the Teessiders halved the deficit as Cozier-Duberry netted for the second time in as many games. Phillips and Kyle Joseph’s efforts were half-cleared and the ball dropped to the Brighton loanee, whose left-foot strike deflected into the bottom corner.</p><p>The Riverside sensed blood and Boro went for the jugular, launching wave after wave of attacks.</p><p>Max Arfsten – who along with Joseph and Jeremy Sarmiento was introduced at half-time – delivered a peach of a cross for Joseph, whose header was tipped over by Crocombe. Cozier-Duberry saw a strong penalty shout turned down soon after.</p><p>Boro were level just after the hour mark, with Lankshear heading in a superb Ayling cross at the back post as he notched his eighth goal of the season.</p><p>Cozier-Duberry continued to be a thorn in Millwall’s side. He curled a free-kick over and had a powerful strike deflected off-target as the hosts searched for what they hoped would be a winner.</p><p>Millwall could not be counted out, though, and Vitek was called upon to make a terrific reaction stop from an Elkan Baggott header.</p><p>Boro were the team doing most of the attacking, and there was another chance as Myles Peart-Harris launched a ball over the top which found Sarmiento, but his finish did not trouble Crocombe.</p><p>Sarmiento went closer with four minutes left, and must have felt he had won it when he cut inside onto his right foot and hit a wicked curler which arrowed towards goal, but it dropped just beyond the far post.</p><p>The elusive third goal did not arrive as the sides eventually took a point apiece.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "27,684",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 11,
+            "addedTime": null,
+            "team": "Millwall",
+            "scorer": "Taïryk Arconte",
+            "assist": "Camiel Neghli",
+            "ownGoal": false
+          },
+          {
+            "minute": 36,
+            "addedTime": null,
+            "team": "Millwall",
+            "scorer": "Lyndon Dykes",
+            "assist": "Caleb Taylor",
+            "ownGoal": false
+          },
+          {
+            "minute": 50,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Amario Cozier-Duberry",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 61,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Luke Ayling",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647314",
+        "https://www.mfc.co.uk/news/2026/september/15/match-review--boro-2-millwall-2/"
+      ]
+    },
+    {
+      "id": "2026-09-19-birmingham-city-middlesbrough",
+      "date": "2026-09-19",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "8",
+      "home": {
+        "name": "Birmingham City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "reportContent": "<p><strong>Boro signed off for the three-week international break with a hard-fought draw at St Andrew’s as Adilson Malanda scored a late equaliser.</strong></p><p>Malanda fired in his first Boro goal with two minutes remaining to earn his side what was a justified point after an entertaining clash in the Second City.</p><p>It was a day which also saw Max Arfsten net his first for Boro, picking his spot just before half-time to reward Kim Hellberg's side for an enterprising first half.</p><p>Birmingham came out strongly at the start of the second half, and two goals in the space of four minutes turned the game on its head.</p><p>Boro battled for an equaliser in the more than half an hour they had to find it, and the breakthrough finally came via the right boot of Malanda in the 88th minute.</p><p>Hellberg made three changes to the Boro team which started the midweek draw with Millwall. Arfsten, Adilson Malanda and Myles Peart-Harris replaced Neto Borges, Sebastian Berhalter and Tommy Conway.</p><p>A competitive first half swung both ways, but Boro ultimately deserved the lead they took into half-time.</p><p>Things could have looked different if Jhon Solis’ early strike for the hosts had angled goalwards, but Radek Vitek had it covered as he watched it slide past his right-hand post.</p><p>There was also a swift opportunity for Will Lankshear, but he uncharacteristically was unable to get clean contact on his strike from 10 yards after good work from Amario Cozier-Duberry.</p><p>Vitek showed sharp reactions to tip a Luis Vazquez header over the top, and he also denied Liam Millar after the Birmingham man was found on the left.</p><p>Boro came into their own in the latter stages of the half, and almost took the lead on 36 minutes. Riley McGree slipped in Peart-Harris and his cutback headed to Cozier-Duberry, but the bounce was unkind to the exciting forward and his shot cleared the crossbar.</p><p>Lankshear was the next to go close, taking a Cozier-Duberry cross out of the air, turning and hitting a low effort which took a deflection and struck the outside of the post.</p><p>The breakthrough came on 45 minutes, and Cozier-Duberry was again at the heart of it. He did brilliantly to retain the ball under Birmingham pressure and then sent it to Arfsten, who picked his spot from 10 yards to notch his first goal for the club.</p><p>Birmingham could have levelled with the last kick of the half, but Tomoki Iwata’s strike from distance whistled narrowly over.</p><p>The hosts came out for the second half with added impetus and pushed Boro back almost from the restart.</p><p>Their reward came in the 55th minute as the Teessiders conceded possession deep inside their own half and Millar finished well from the left of the area.</p><p>Birmingham completed a quickfire turnaround four minutes later, with Millar’s corner causing chaos in the Boro box and as we desperately tried to get it clear, the ball bounced in off McGree.</p><p>The Blues had the wind in their sails and tried to make the most of their momentum. Iwata headed over from a corner as they looked for number three.</p><p>The longer the second half went on, the more possession Boro had, but opportunities were at a premium.</p><p>That was until two minutes from the end when Berhalter's free-kick was dropped by home goalkeeper James Beadle. Kyle Joseph had a swipe at it and the loose ball fell to Malanda, who lashed in the equaliser and earned his side a point.</p>",
+      "details": {
+        "stadium": "St. Andrew's @ Knighthead Park",
+        "attendance": "27,017",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 45,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Max Arfsten",
+            "assist": "Amario Cozier-Duberry",
+            "ownGoal": false
+          },
+          {
+            "minute": 55,
+            "addedTime": null,
+            "team": "Birmingham City",
+            "scorer": "Liam Millar",
+            "assist": "Jhon Solís",
+            "ownGoal": false
+          },
+          {
+            "minute": 59,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Riley McGree",
+            "assist": null,
+            "ownGoal": true
+          },
+          {
+            "minute": 88,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Adilson Malanda",
+            "assist": null,
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647334",
+        "https://www.mfc.co.uk/news/2026/september/19/match-review--birmingham-city-2-boro-2/"
+      ]
+    },
+    {
+      "id": "2026-10-10-middlesbrough-wolverhampton-wanderers",
+      "date": "2026-10-10",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "9",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Wolverhampton Wanderers"
+      },
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "reportContent": "<p><strong>Brilliant Boro’s 150 Fixture was marked in style as Will Lankshear headed in a second half winner to down Wolves at the Riverside.</strong></p><p>The game was the crowning moment of the club’s 150th anniversary celebrations, and the occasion received the result it deserved thanks to Lankshear’s pinpoint effort on 57 minutes.</p><p>It was a high-quality Sky Bet Championship clash between two of the division’s early pace-setters, but there was no doubting Boro deserved the points.</p><p>Kim Hellberg’s side are now into the top two after making it seven league games unbeaten.</p><p>A red-hot atmosphere greeted the players and it was a new – or should that be old – look Boro, wearing navy shirts in a nod to the earliest days in the club’s history.</p><p>Boro responded well to the wall of noise, streaming forwards in the early stages.</p><p>One attack saw Callum Brittain break away down the right and pull across a ball which Wolves did well to clear.</p><p>Another led to Tommy Conway being pulled back on the edge of the penalty area and Lankshear sending a free-kick over.</p><p>Wolves goalkeeper Jose Sa was also called into action early, kicking away a well-struck effort from Lankshear as Boro continued to press.</p><p>The visitors gained a foothold and began to restrict Boro’s forays forward. They had one of their own when Adam Armstrong found himself in behind on the right, but Radek Vitek denied him with his foot.</p><p>Boro were dominant in possession and looked the likelier to break the deadlock. Adilson Malanda had a header saved, Berhalter curled a left foot strike wide and Conway fired an inviting ball across goal which had no takers.</p><p>There would be no goals before half-time, although Vitek was called into action again two minutes before the break, pushing a powerful Marshall Munetsi drive away from danger.</p><p>The breakthrough came 13 minutes into the second half, and it was a peach of a goal befitting the occasion by Boro.</p><p>Conway broke free down the left and delivered a perfect ball onto the head of Lankshear, who powered in his ninth of the season with a bullet in front of the North Stand.</p><p>Wolves’ response was strong. Munetsi hammered wide from the edge of the area and Armstrong was denied a back-post tap-in by a brilliant Malanda interception in front of goal.</p><p>Vitek was also scrambling when Armstrong’s sweet strike from 20 yards took a deflection, but blissfully for Boro, the ball cleared the crossbar.</p><p>The Teessiders stemmed the tide and then went in search of a second.</p><p>Riley McGree had a crack from range which Sa held, before the Wolves goalkeeper also denied Berhalter and then watched an Amario Cozier-Duberry curler drift narrowly wide.</p><p>Boro were now on top, and Kyle Joseph almost clinched it two minutes from the end, but his header hit the bar.</p><p>It meant Wolves had hope heading into five minutes of stoppage time, but Boro held firm for an excellent victory in front of a sold-out, jubilant Riverside.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "32,125",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 57,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Tommy Conway",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647350",
+        "https://www.mfc.co.uk/news/2026/october/10/match-review--boro-1-wolves-0/"
+      ]
+    },
+    {
+      "id": "2026-10-13-stoke-city-middlesbrough",
+      "date": "2026-10-13",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "10",
+      "home": {
+        "name": "Stoke City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "reportContent": "<p><strong>Neto Borges scored a dramatic stoppage time winner as Boro came out on top in a five-goal thriller in the Potteries.</strong></p><p>Kim Hellberg's side had earlier twice been pegged back, with Callum Brittain and Will Lankshear having both put the Teessiders in front.</p><p>Stoke battled back on two occasions, but there was no denying Boro, with Borges finishing from close range in front of a jubilant away support.</p><p>Boro remain in the Sky Bet Championship's top two after ending Stoke's six-match unbeaten run, and they themselves have now not tasted defeat in their last eight in the league.</p><p>Hellberg made two changes to the Boro team which started Saturday’s 1-0 win over Wolverhampton Wanderers, with Luke Ayling and Jeremy Sarmiento replacing Riley McGree and Tommy Conway.</p><p>A cagey opening to the game gave a clue as to how the first half would unfold.</p><p>Boro had the better of possession and the half-chances that did come in the first 45 minutes went their way.</p><p>An early Lankshear strike was held and Sebastian Berhalter skewed a shot wide from long range after a kick from Viktor Johansson fell to him.</p><p>The Teessiders’ threat was more prominent from the half-hour onwards, with Amario Cozier-Duberry at the centre of a number of moves.</p><p>Twice he cut inside from the right and got efforts away. The first stung the palms of Johansson and the second cannoned against the legs of a defender.</p><p>Perhaps Boro’s best sight of goal in the first half came six minutes before half-time when Lankshear’s header found Aidan Morris, who took a touch before seeing a half-volley held by Johansson.</p><p>Neto Borges struck wide from distance in stoppage time but the goalless scoreline was reflective of the game to that point.</p><p>The opening to the second half was breathless as the teams traded goals within the first five minutes of the restart.</p><p>Boro struck first as a cross from the left was held up and helped on by Cozier-Duberry to Brittain, who opened his account for the club in some style with a superb curled effort into the top corner.</p><p>The lead lasted less than two minutes, though, as Stoke won the ball on halfway and worked it through to Junior Tchamadeu, whose shot from the right of the area deflected off Borges to leave Radek Vitek with no chance.</p><p>The game was now in the balance, and Boro’s attempts to regain the ascendancy repeatedly centered around Brittain.</p><p>He eyed a second just after the hour after being cleverly found by Cozier-Duberry. His shot was parried by Johansson and Morris had two follow-ups blocked.</p><p>At the other end, Tchamadeu had a golden chance to put Stoke ahead after being played in over the top, but Ayling marshalled him superbly and denied him a clean strike at goal.</p><p>The third goal went the way of Boro on 73 minutes.</p><p>Cozier-Duberry’s strike from 20 yards was too hot to handle for Johansson and he pushed it as far as a sliding Lankshear, who pounced to score his 10th of the season.</p><p>Space began to open up for Boro on the break as Stoke pushed for an equaliser, and one of those moments saw substitute Conway break away on the left before coming inside and curling wide.</p><p>Boro looked to be heading for maximum points, but after failing to clear their lines five minutes before the end, Robert Bozenik made the most of the opening to fire home.</p><p>There was a late chance for a Boro winner, with Morris having a flicked effort saved by Johansson. Brittain also had a shot deflected wide.</p><p>But the drama was saved for a minute into stoppage time, when Borges controlled brilliantly and fired in to secure a dramatic victory for the Teessiders.</p>",
+      "details": {
+        "stadium": "bet365 Stadium",
+        "attendance": "22,538",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 48,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Callum Brittain",
+            "assist": "Amario Cozier-Duberry",
+            "ownGoal": false
+          },
+          {
+            "minute": 50,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Neto Borges",
+            "assist": null,
+            "ownGoal": true
+          },
+          {
+            "minute": 73,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          },
+          {
+            "minute": 85,
+            "addedTime": null,
+            "team": "Stoke City",
+            "scorer": "Róbert Bozeník",
+            "assist": "George Hirst",
+            "ownGoal": false
+          },
+          {
+            "minute": 90,
+            "addedTime": 1,
+            "team": "Middlesbrough",
+            "scorer": "Neto Borges",
+            "assist": null,
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647363",
+        "https://www.mfc.co.uk/news/2026/october/13/match-review--stoke-city-2-boro-3/"
+      ]
+    },
+    {
+      "id": "2026-10-17-middlesbrough-cardiff-city",
+      "date": "2026-10-17",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "11",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Cardiff City"
+      },
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "reportContent": "<p><strong>Boro battled back from two goals behind to stretch their unbeaten league run to nine games on a dramatic afternoon.</strong></p><p>Second half strikes from Tommy Conway and Will Lankshear preserved a point against a spirited Cardiff City side which had taken a two-goal lead before the break.</p><p>It was another demonstration of Boro’s impressive battling qualities as a difficult opening at the Riverside made way for a hard-earned point.</p><p>Kyle Joseph was brought into the XI by Boro boss Kim Hellberg, as were Riley McGree and Conway.</p><p>It would prove to be a difficult first half for the Teessiders, despite several promising moments and passages of play.</p><p>There could have been an early goal for the hosts, with Conway’s strike spilled by Cardiff goalkeeper Nathan Trott inside the opening three minutes. Adilson Malanda attempted to follow-up and claimed he was held back, but Boro’s penalty appeals were waved away.</p><p>Neto Borges – scorer of the dramatic winner at Stoke City in midweek – headed narrowly wide moments later.</p><p>Aidan Morris was denied by a block, Amario Cozier-Duberry’s drive was pushed wide by Trott and Borges crashed another effort off-target.</p><p>Against the run of play, Cardiff opened the scoring on 22 minutes. Jack Moylan displayed fast feet in the area and hammered a low shot which kissed the inside of Radek Vitek’s post on its way into the net.</p><p>There were several openings for a Boro equaliser in what remained of the first half.</p><p>Conway had a low cross parried by Trott and the ball broke towards Cozier-Duberry, who was denied by a brave block from Alex Robertson.</p><p>Cozier-Duberry later stung the palms of Trott and had another strike blocked, before squaring for Joseph, whose tap-in was thwarted by a last-ditch interception.</p><p>The sucker punch came in stoppage time as Ollie Tanner ran at the Boro defence, cut onto his left foot and rifled into the top corner.</p><p>Lankshear and Sebastian Berhalter were brought on at the break as Hellberg searched for added impetus.</p><p>And there was an early chance for Lankshear to strike his 11th goal of the season after Callum Brittain gave him something to chase, but he pulled his shot wide.</p><p>Berhalter then found fellow American Aidan Morris with a superb clipped ball. The midfielder took it round Trott and the goal opened up for him, but the goalkeeper recovered well and blocked with his leg.</p><p>Boro were building pressure and the reward came on 58 minutes. Cozier-Duberry released Brittain down the right of the area and his cut-back found Conway, who drilled it ruthlessly into the bottom corner.</p><p>Within three minutes of that, we were level in some style as Lankshear cut the ball onto his left foot and fired mercilessly past Trott from 20 yards to make the Riverside erupt.</p><p>Hellberg’s men were flying forward and it was almost a quickfire treble, but Borges skied his shot from the edge of the box.</p><p>Cardiff retained a threat, and Vitek had to keep his cool and stand tall to prevent Moylan restoring the Welsh side’s lead midway through the second half.</p><p>Many inside the Riverside thought Ashley Phillips was about to head Boro into the lead on 76 minutes as he rose highest from a corner, but his effort went past the post.</p><p>Boro kept pushing, and Berhalter had a strike sweet pushed wide by Trott as the momentum began to build again.</p><p>Cardiff were then reduced to 10 men, Gabriel Osho given his marching orders for a late challenge on Lankshear near halfway.</p><p>Berhalter was at the centre of many of our bright late moments. He had a sweet strike pushed wide by Trott and hit a free-kick over.</p><p>But there was to be no late winner as the teams took a breathless point apiece.</p>",
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": "28,991",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 22,
+            "addedTime": null,
+            "team": "Cardiff City",
+            "scorer": "Jack Moylan",
+            "assist": "Ollie Tanner",
+            "ownGoal": false
+          },
+          {
+            "minute": 45,
+            "addedTime": 1,
+            "team": "Cardiff City",
+            "scorer": "Ollie Tanner",
+            "assist": "Jack Moylan",
+            "ownGoal": false
+          },
+          {
+            "minute": 58,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Tommy Conway",
+            "assist": "Callum Brittain",
+            "ownGoal": false
+          },
+          {
+            "minute": 61,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Amario Cozier-Duberry",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [
+          {
+            "minute": 83,
+            "addedTime": null,
+            "team": "Cardiff City",
+            "player": "Gabriel Osho",
+            "secondBookable": false
+          }
+        ],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647374",
+        "https://www.mfc.co.uk/news/2026/october/17/match-review--boro-2-cardiff-city-2/"
+      ]
+    },
+    {
+      "id": "2026-10-23-bolton-wanderers-middlesbrough",
+      "date": "2026-10-23",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "12",
+      "home": {
+        "name": "Bolton Wanderers"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": 1,
+        "away": 5
+      },
+      "reportContent": "<p><strong>Boro climbed to the top of the Sky Bet Championship with a thrilling, five-star performance at the Toughsheet Stadium.</strong></p><p>Up against a tough Bolton Wanderers side which had found good form in recent weeks, Boro produced arguably their best football of the season in a scintillating first half.</p><p>Goals from Aidan Morris, Will Lankshear and Adilson Malanda put Kim Hellberg’s side into a commanding position, though Bolton scored with the last kick of the first half to restore some hope.</p><p>Amario Cozier-Duberry added a vital fourth 17 minutes before the end to make the points safe, and Lankshear tapped home another to and send a sold-out away following home in jubilant mood.</p><p>Lankshear and Sebastian Berhalter were restored to the starting XI by Hellberg, and the Swede saw his team start the game well on the front foot.</p><p>There could have been a goal inside the first two minutes when Riley McGree slid in Tommy Conway down the left, but the Scotland international’s shot fizzed wide of the right-hand post.</p><p>McGree also hit a drive straight at Gavin Bazunu as Boro tried to make their early possession count.</p><p>There was almost a sucker punch at the other end on 13 minutes. Gaizka Larrazabal pierced the Teessiders’ defence with a ball through to Ruben Rodrigues, but the Wanderers man lacked the composure to seriously trouble Radek Vitek.</p><p>It proved to be a vital moment as Boro roared down the other end. Conway and McGree worked it through for former Bolton loanee Cozier-Duberry, who put it on a plate for Morris to fire in his second of the season.</p><p>Bolton had two sights of an equaliser. Rodrigues’ long-range strike was pushed away by Vitek and Thelonius Bair skewed a shot wide after being played in down the right.</p><p>Control was quickly wrestled back by Hellberg’s men, who went close to adding a second numerous times before they actually did.</p><p>McGree curled one over after being found in space, Cozier-Duberry’s low drive was tipped wide by Bazunu and Morris thrashed over from outside the area.</p><p>Callum Brittain saw a shot smothered by Bazunu and Lankshear went closer still, with his piledriver from 10 yards excellently saved by the hand of Bazunu.</p><p>The second goal eventually came just after the half-hour following some outstanding passing play from Boro. The move culminated as McGree played in Conway and he squared for Lankshear to score his 12th of the season in all competitions.</p><p>The Teessiders added a second on 39 minutes. Berhalter’s corner found the head of Malanda and his effort went in via a deflection off Lewis Brunt.</p><p>The away side fully warranted their advantage but there was a sting in the tail as Bair finished through a sea of bodies two minutes into stoppage time to give Bolton hope.</p><p>After an action-packed first half, the second started more evenly, with both sides battling for the ascendancy.</p><p>Boro got into promising positions on several occasions, and eventually got a shot at goal on 63 minutes as Conway broke forward and threaded it to Lankshear, whose low strike was held by Bazunu.</p><p>But for Bazunu, the Teessiders would have been comfortably ahead, and he thwarted us again when he tipped over Conway’s rasping drive.</p><p>Bazunu was called into action again on 68 minutes, pushing a Lankshear effort wide after the striker was found by Morris.</p><p>The crucial fourth Boro goal came 17 minutes from the end as Cozier-Duberry rifled in against his former club, thrashing the ball into the top corner after being picked out by McGree.</p><p>It was soon five. Brittain beat the Bolton defence with a superb through ball and McGree unselfishly put it on a plate for Lankshear to score his second from close range.</p><p>Berhalter fired narrowly over from distance as Boro looked for a sixth, but five was enough on a memorable night in Lancashire.</p>",
+      "details": {
+        "stadium": "Toughsheet Community Stadium",
+        "attendance": "26,257",
+        "awayAttendance": null,
+        "goals": [
+          {
+            "minute": 13,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Aidan Morris",
+            "assist": "Amario Cozier-Duberry",
+            "ownGoal": false
+          },
+          {
+            "minute": 31,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Tommy Conway",
+            "ownGoal": false
+          },
+          {
+            "minute": 39,
+            "addedTime": null,
+            "team": "Bolton Wanderers",
+            "scorer": "Lewis Brunt",
+            "assist": null,
+            "ownGoal": true
+          },
+          {
+            "minute": 45,
+            "addedTime": 2,
+            "team": "Bolton Wanderers",
+            "scorer": "Theo Bair",
+            "assist": "Gaizka Larrazabal",
+            "ownGoal": false
+          },
+          {
+            "minute": 73,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Amario Cozier-Duberry",
+            "assist": "Riley McGree",
+            "ownGoal": false
+          },
+          {
+            "minute": 78,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Riley McGree",
+            "ownGoal": false
+          }
+        ],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647383",
+        "https://www.mfc.co.uk/news/2026/october/23/match-review--bolton-wanderers-1-boro-5/"
+      ]
+    },
+    {
+      "id": "2026-10-31-middlesbrough-charlton-athletic",
+      "date": "2026-10-31",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "13",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Charlton Athletic"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-11-04-wrexham-middlesbrough",
+      "date": "2026-11-04",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "14",
+      "home": {
+        "name": "Wrexham"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Racecourse Ground",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-11-07-watford-middlesbrough",
+      "date": "2026-11-07",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "15",
+      "home": {
+        "name": "Watford"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Vicarage Road",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-11-21-middlesbrough-bristol-city",
+      "date": "2026-11-21",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "16",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Bristol City"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-11-24-middlesbrough-swansea-city",
+      "date": "2026-11-24",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "17",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Swansea City"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-11-27-southampton-middlesbrough",
+      "date": "2026-11-27",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "18",
+      "home": {
+        "name": "Southampton"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "St. Mary's Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-05-middlesbrough-derby-county",
+      "date": "2026-12-05",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "19",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Derby County"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-08-west-ham-united-middlesbrough",
+      "date": "2026-12-08",
+      "kickoff": "20:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "20",
+      "home": {
+        "name": "West Ham United"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "London Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-12-preston-north-end-middlesbrough",
+      "date": "2026-12-12",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "21",
+      "home": {
+        "name": "Preston North End"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Deepdale",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-19-middlesbrough-portsmouth",
+      "date": "2026-12-19",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "22",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Portsmouth"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-26-sheffield-united-middlesbrough",
+      "date": "2026-12-26",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "23",
+      "home": {
+        "name": "Sheffield United"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Bramall Lane",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2026-12-29-middlesbrough-bolton-wanderers",
+      "date": "2026-12-29",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "24",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Bolton Wanderers"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-01-01-middlesbrough-preston-north-end",
+      "date": "2027-01-01",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "25",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Preston North End"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-01-16-cardiff-city-middlesbrough",
+      "date": "2027-01-16",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "26",
+      "home": {
+        "name": "Cardiff City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Cardiff City Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-01-23-charlton-athletic-middlesbrough",
+      "date": "2027-01-23",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "27",
+      "home": {
+        "name": "Charlton Athletic"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "The Valley",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-01-27-middlesbrough-wrexham",
+      "date": "2027-01-27",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "28",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Wrexham"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-01-30-middlesbrough-watford",
+      "date": "2027-01-30",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "29",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Watford"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-02-06-bristol-city-middlesbrough",
+      "date": "2027-02-06",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "30",
+      "home": {
+        "name": "Bristol City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Ashton Gate Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-02-13-norwich-city-middlesbrough",
+      "date": "2027-02-13",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "31",
+      "home": {
+        "name": "Norwich City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Carrow Road",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-02-17-middlesbrough-stoke-city",
+      "date": "2027-02-17",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "32",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Stoke City"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-02-20-middlesbrough-birmingham-city",
+      "date": "2027-02-20",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "33",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Birmingham City"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-02-27-wolverhampton-wanderers-middlesbrough",
+      "date": "2027-02-27",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "34",
+      "home": {
+        "name": "Wolverhampton Wanderers"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Molineux Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-03-02-middlesbrough-blackburn-rovers",
+      "date": "2027-03-02",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "35",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Blackburn Rovers"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-03-06-lincoln-city-middlesbrough",
+      "date": "2027-03-06",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "36",
+      "home": {
+        "name": "Lincoln City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "ProAmpac Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-03-13-middlesbrough-southampton",
+      "date": "2027-03-13",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "37",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Southampton"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-03-16-derby-county-middlesbrough",
+      "date": "2027-03-16",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "38",
+      "home": {
+        "name": "Derby County"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Pride Park Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-03-20-middlesbrough-sheffield-united",
+      "date": "2027-03-20",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "39",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Sheffield United"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-03-portsmouth-middlesbrough",
+      "date": "2027-04-03",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "40",
+      "home": {
+        "name": "Portsmouth"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Fratton Park",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-06-millwall-middlesbrough",
+      "date": "2027-04-06",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "41",
+      "home": {
+        "name": "Millwall"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "The Den",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-10-middlesbrough-queens-park-rangers",
+      "date": "2027-04-10",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "42",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Queens Park Rangers"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-17-west-bromwich-albion-middlesbrough",
+      "date": "2027-04-17",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "43",
+      "home": {
+        "name": "West Bromwich Albion"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "The Hawthorns",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-20-middlesbrough-burnley",
+      "date": "2027-04-20",
+      "kickoff": "19:45",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "44",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "Burnley"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-04-24-middlesbrough-west-ham-united",
+      "date": "2027-04-24",
+      "kickoff": "15:00",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "45",
+      "home": {
+        "name": "Middlesbrough"
+      },
+      "away": {
+        "name": "West Ham United"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Riverside Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    },
+    {
+      "id": "2027-05-01-swansea-city-middlesbrough",
+      "date": "2027-05-01",
+      "kickoff": "12:30",
+      "type": "competitive",
+      "competition": "Championship",
+      "round": "46",
+      "home": {
+        "name": "Swansea City"
+      },
+      "away": {
+        "name": "Middlesbrough"
+      },
+      "score": {
+        "home": null,
+        "away": null
+      },
+      "reportContent": null,
+      "details": {
+        "stadium": "Swansea.com Stadium",
+        "attendance": null,
+        "awayAttendance": null,
+        "goals": [],
+        "redCards": [],
+        "playerOfTheMatch": null,
+        "tableAfterMatch": null
+      },
+      "sources": null
+    }
+  ]
+}

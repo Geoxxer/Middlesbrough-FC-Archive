@@ -1,0 +1,345 @@
+
+{
+  "clubs": {
+    "birmingham-city": {
+      "name": "Birmingham City",
+      "badge": "/data/custom_flags/clubs/birmingham_city.svg",
+      "aliases": ["Birmingham", "Birmingham City FC"]
+    },
+    "blackburn-rovers": {
+      "name": "Blackburn Rovers",
+      "badge": "/data/custom_flags/clubs/blackburn_rovers.svg",
+      "aliases": ["Blackburn", "Blackburn Rovers FC"]
+    },
+    "bristol-city": {
+      "name": "Bristol City",
+      "badge": "/data/custom_flags/clubs/bristol_city.svg",
+      "aliases": ["Bristol City FC"]
+    },
+    "charlton-athletic": {
+      "name": "Charlton Athletic",
+      "badge": "/data/custom_flags/clubs/charlton_athletic.svg",
+      "aliases": ["Charlton", "Charlton Athletic FC"]
+    },
+    "coventry-city": {
+      "name": "Coventry City",
+      "badge": "/data/custom_flags/clubs/coventry_city.svg",
+      "aliases": ["Coventry", "Coventry City FC"]
+    },
+    "derby-county": {
+      "name": "Derby County",
+      "badge": "/data/custom_flags/clubs/derby_county.svg",
+      "aliases": ["Derby", "Derby County FC"]
+    },
+    "doncaster-rovers": {
+      "name": "Doncaster Rovers",
+      "badge": "/data/custom_flags/clubs/doncaster_rovers.svg",
+      "aliases": ["Doncaster", "Doncaster Rovers FC"]
+    },
+    "hull-city": {
+      "name": "Hull City",
+      "badge": "/data/custom_flags/clubs/hull_city.svg",
+      "aliases": ["Hull", "Hull City AFC", "The Tigers"]
+    },
+    "ipswich-town": {
+      "name": "Ipswich Town",
+      "badge": "/data/custom_flags/clubs/ipswich_town.svg",
+      "aliases": ["Ipswich", "Ipswich Town FC"]
+    },
+    "leicester-city": {
+      "name": "Leicester City",
+      "badge": "/data/custom_flags/clubs/leicester_city.svg",
+      "aliases": ["Leicester", "Leicester City FC"]
+    },
+    "middlesbrough": {
+      "name": "Middlesbrough",
+      "badge": "/data/custom_flags/clubs/middlesbrough.svg",
+      "aliases": ["Middlesbrough FC", "Boro"]
+    },
+    "millwall": {
+      "name": "Millwall",
+      "badge": "/data/custom_flags/clubs/millwall.svg",
+      "aliases": ["Millwall FC"]
+    },
+    "norwich-city": {
+      "name": "Norwich City",
+      "badge": "/data/custom_flags/clubs/norwich_city.svg",
+      "aliases": ["Norwich", "Norwich City FC", "The Canaries"]
+    },
+    "oxford-united": {
+      "name": "Oxford United",
+      "badge": "/data/custom_flags/clubs/oxford_united.svg",
+      "aliases": ["Oxford", "Oxford United FC"]
+    },
+    "portsmouth": {
+      "name": "Portsmouth",
+      "badge": "/data/custom_flags/clubs/portsmouth.svg",
+      "aliases": ["Portsmouth FC", "Pompey"]
+    },
+    "preston-north-end": {
+      "name": "Preston North End",
+      "badge": "/data/custom_flags/clubs/preston_north_end.svg",
+      "aliases": ["Preston", "Preston North End FC", "PNE"]
+    },
+    "queens-park-rangers": {
+      "name": "Queens Park Rangers",
+      "badge": "/data/custom_flags/clubs/queens_park_rangers.svg",
+      "aliases": ["QPR", "Queens Park Rangers FC"]
+    },
+    "sheffield-united": {
+      "name": "Sheffield United",
+      "badge": "/data/custom_flags/clubs/sheffield_united.svg",
+      "aliases": ["Sheffield United FC", "The Blades"]
+    },
+    "sheffield-wednesday": {
+      "name": "Sheffield Wednesday",
+      "badge": "/data/custom_flags/clubs/sheffield_wednesday.svg",
+      "aliases": ["Sheffield Wednesday FC", "Wednesday", "The Owls"]
+    },
+    "southampton": {
+      "name": "Southampton",
+      "badge": "/data/custom_flags/clubs/southampton.svg",
+      "aliases": ["Southampton FC", "Saints"]
+    },
+    "stoke-city": {
+      "name": "Stoke City",
+      "badge": "/data/custom_flags/clubs/stoke_city.svg",
+      "aliases": ["Stoke", "Stoke City FC", "The Potters"]
+    },
+    "swansea-city": {
+      "name": "Swansea City",
+      "badge": "/data/custom_flags/clubs/swansea_city.svg",
+      "aliases": ["Swansea", "Swansea City AFC"]
+    },
+    "watford": {
+      "name": "Watford",
+      "badge": "/data/custom_flags/clubs/watford.svg",
+      "aliases": ["Watford FC", "The Hornets"]
+    },
+    "west-bromwich-albion": {
+      "name": "West Bromwich Albion",
+      "badge": "/data/custom_flags/clubs/west_bromwich_albion.svg",
+      "aliases": ["West Brom", "WBA", "West Bromwich Albion FC"]
+    },
+    "wrexham": {
+      "name": "Wrexham",
+      "badge": "/data/custom_flags/clubs/wrexham.svg",
+      "aliases": ["Wrexham AFC"]
+    },
+    "arsenal": {
+    "name": "Arsenal",
+    "badge": "/data/custom_flags/clubs/arsenal.svg",
+    "aliases": ["Arsenal FC", "The Gunners"]
+    },
+    "aston-villa": {
+      "name": "Aston Villa",
+      "badge": "/data/custom_flags/clubs/aston_villa.svg",
+      "aliases": ["Aston Villa FC", "Villa"]
+    },
+    "bournemouth": {
+      "name": "Bournemouth",
+      "badge": "/data/custom_flags/clubs/bournemouth.svg",
+      "aliases": ["AFC Bournemouth", "Bournemouth FC"]
+    },
+    "brentford": {
+      "name": "Brentford",
+      "badge": "/data/custom_flags/clubs/brentford.svg",
+      "aliases": ["Brentford FC", "The Bees"]
+    },
+    "brighton-and-hove-albion": {
+      "name": "Brighton & Hove Albion",
+      "badge": "/data/custom_flags/clubs/brighton_and_hove_albion.svg",
+      "aliases": ["Brighton", "Brighton and Hove Albion", "Brighton & Hove Albion FC"]
+    },
+    "burnley": {
+      "name": "Burnley",
+      "badge": "/data/custom_flags/clubs/burnley.svg",
+      "aliases": ["Burnley FC", "The Clarets"]
+    },
+    "chelsea": {
+      "name": "Chelsea",
+      "badge": "/data/custom_flags/clubs/chelsea.svg",
+      "aliases": ["Chelsea FC"]
+    },
+    "crystal-palace": {
+      "name": "Crystal Palace",
+      "badge": "/data/custom_flags/clubs/crystal_palace.svg",
+      "aliases": ["Crystal Palace FC", "Palace"]
+    },
+    "everton": {
+      "name": "Everton",
+      "badge": "/data/custom_flags/clubs/everton.svg",
+      "aliases": ["Everton FC", "The Toffees"]
+    },
+    "fulham": {
+      "name": "Fulham",
+      "badge": "/data/custom_flags/clubs/fulham.svg",
+      "aliases": ["Fulham FC", "The Cottagers"]
+    },
+    "leeds-united": {
+      "name": "Leeds United",
+      "badge": "/data/custom_flags/clubs/leeds_united.svg",
+      "aliases": ["Leeds", "Leeds United FC"]
+    },
+    "liverpool": {
+      "name": "Liverpool",
+      "badge": "/data/custom_flags/clubs/liverpool.svg",
+      "aliases": ["Liverpool FC", "The Reds"]
+    },
+    "manchester-city": {
+      "name": "Manchester City",
+      "badge": "/data/custom_flags/clubs/manchester_city.svg",
+      "aliases": ["Man City", "Manchester City FC"]
+    },
+    "manchester-united": {
+      "name": "Manchester United",
+      "badge": "/data/custom_flags/clubs/manchester_united.svg",
+      "aliases": ["Man United", "Man Utd", "Manchester United FC"]
+    },
+    "newcastle-united": {
+      "name": "Newcastle United",
+      "badge": "/data/custom_flags/clubs/newcastle_united.svg",
+      "aliases": ["Newcastle", "Newcastle United FC"]
+    },
+    "nottingham-forest": {
+      "name": "Nottingham Forest",
+      "badge": "/data/custom_flags/clubs/nottingham_forest.svg",
+      "aliases": ["Forest", "Nottingham Forest FC"]
+    },
+    "sunderland": {
+      "name": "Sunderland",
+      "badge": "/data/custom_flags/clubs/sunderland.svg",
+      "aliases": ["Sunderland AFC", "The Black Cats"]
+    },
+    "tottenham-hotspur": {
+      "name": "Tottenham Hotspur",
+      "badge": "/data/custom_flags/clubs/tottenham_hotspur.svg",
+      "aliases": ["Tottenham", "Spurs", "Tottenham Hotspur FC"]
+    },
+    "west-ham-united": {
+      "name": "West Ham United",
+      "badge": "/data/custom_flags/clubs/west_ham_united.svg",
+      "aliases": ["West Ham", "West Ham United FC"]
+    },
+    "wolverhampton-wanderers": {
+      "name": "Wolverhampton Wanderers",
+      "badge": "/data/custom_flags/clubs/wolverhampton_wanderers.svg",
+      "aliases": ["Wolves", "Wolverhampton Wanderers FC"]
+    },
+    "afc-wimbledon": {
+    "name": "AFC Wimbledon",
+    "badge": "/data/custom_flags/clubs/afc_wimbledon.svg",
+    "aliases": ["Wimbledon", "AFC Wimbledon FC"]
+    },
+    "barnsley": {
+      "name": "Barnsley",
+      "badge": "/data/custom_flags/clubs/barnsley.svg",
+      "aliases": ["Barnsley FC"]
+    },
+    "blackpool": {
+      "name": "Blackpool",
+      "badge": "/data/custom_flags/clubs/blackpool.svg",
+      "aliases": ["Blackpool FC", "The Seasiders"]
+    },
+    "bolton-wanderers": {
+      "name": "Bolton Wanderers",
+      "badge": "/data/custom_flags/clubs/bolton_wanderers.svg",
+      "aliases": ["Bolton", "Bolton Wanderers FC"]
+    },
+    "bradford-city": {
+      "name": "Bradford City",
+      "badge": "/data/custom_flags/clubs/bradford_city.svg",
+      "aliases": ["Bradford", "Bradford City AFC"]
+    },
+    "burton-albion": {
+      "name": "Burton Albion",
+      "badge": "/data/custom_flags/clubs/burton_albion.svg",
+      "aliases": ["Burton", "Burton Albion FC"]
+    },
+    "cardiff-city": {
+      "name": "Cardiff City",
+      "badge": "/data/custom_flags/clubs/cardiff_city.svg",
+      "aliases": ["Cardiff", "Cardiff City FC"]
+    },
+    "exeter-city": {
+      "name": "Exeter City",
+      "badge": "/data/custom_flags/clubs/exeter_city.svg",
+      "aliases": ["Exeter", "Exeter City FC"]
+    },
+    "huddersfield-town": {
+      "name": "Huddersfield Town",
+      "badge": "/data/custom_flags/clubs/huddersfield_town.svg",
+      "aliases": ["Huddersfield", "Huddersfield Town AFC"]
+    },
+    "leyton-orient": {
+      "name": "Leyton Orient",
+      "badge": "/data/custom_flags/clubs/leyton_orient.svg",
+      "aliases": ["Orient", "Leyton Orient FC"]
+    },
+    "lincoln-city": {
+      "name": "Lincoln City",
+      "badge": "/data/custom_flags/clubs/lincoln_city.svg",
+      "aliases": ["Lincoln", "Lincoln City FC"]
+    },
+    "luton-town": {
+      "name": "Luton Town",
+      "badge": "/data/custom_flags/clubs/luton_town.svg",
+      "aliases": ["Luton", "Luton Town FC"]
+    },
+    "mansfield-town": {
+      "name": "Mansfield Town",
+      "badge": "/data/custom_flags/clubs/mansfield_town.svg",
+      "aliases": ["Mansfield", "Mansfield Town FC"]
+    },
+    "northampton-town": {
+      "name": "Northampton Town",
+      "badge": "/data/custom_flags/clubs/northampton_town.svg",
+      "aliases": ["Northampton", "Northampton Town FC"]
+    },
+    "peterborough-united": {
+      "name": "Peterborough United",
+      "badge": "/data/custom_flags/clubs/peterborough_united.svg",
+      "aliases": ["Peterborough", "Posh", "Peterborough United FC"]
+    },
+    "plymouth-argyle": {
+      "name": "Plymouth Argyle",
+      "badge": "/data/custom_flags/clubs/plymouth_argyle.svg",
+      "aliases": ["Plymouth", "Plymouth Argyle FC"]
+    },
+    "port-vale": {
+      "name": "Port Vale",
+      "badge": "/data/custom_flags/clubs/port_vale.svg",
+      "aliases": ["Port Vale FC", "The Valiants"]
+    },
+    "reading": {
+      "name": "Reading",
+      "badge": "/data/custom_flags/clubs/reading.svg",
+      "aliases": ["Reading FC", "The Royals"]
+    },
+    "rotherham-united": {
+      "name": "Rotherham United",
+      "badge": "/data/custom_flags/clubs/rotherham_united.svg",
+      "aliases": ["Rotherham", "Rotherham United FC"]
+    },
+    "stevenage": {
+      "name": "Stevenage",
+      "badge": "/data/custom_flags/clubs/stevenage.svg",
+      "aliases": ["Stevenage FC"]
+    },
+    "stockport-county": {
+      "name": "Stockport County",
+      "badge": "/data/custom_flags/clubs/stockport_county.svg",
+      "aliases": ["Stockport", "Stockport County FC"]
+    },
+    "wigan-athletic": {
+      "name": "Wigan Athletic",
+      "badge": "/data/custom_flags/clubs/wigan_athletic.svg",
+      "aliases": ["Wigan", "Wigan Athletic FC"]
+    },
+    "wycombe-wanderers": {
+      "name": "Wycombe Wanderers",
+      "badge": "/data/custom_flags/clubs/wycombe_wanderers.svg",
+      "aliases": ["Wycombe", "Wycombe Wanderers FC"]
+    }
+  }
+}

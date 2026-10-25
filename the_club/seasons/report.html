@@ -1,0 +1,1391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Match Report | MFC Archive</title>
+    <meta name="description" content="Match reports and match details from Middlesbrough FC Archive.">
+    <link rel="icon" href="/boro_lion.png">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts/club-badges.js" defer></script>
+    <script src="/scripts/custom-flags.js" defer></script>
+
+    <style>
+        .reportPage {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .logoCrop {
+            display: inline-block;
+            overflow: hidden;
+            vertical-align: middle;
+        }
+
+        .reportMeta {
+            color: #666;
+            font-size: 0.9rem;
+            text-align: center;
+            margin: 0 0 0.25rem;
+        }
+
+        /* Match score */
+
+        .reportScore {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+            align-items: center;
+            gap: 1rem;
+            padding: 0.5rem 0;
+            margin-bottom: 0.5rem;
+            background: transparent;
+            border: none;
+            border-radius: 0;
+        }
+
+        .reportTeam {
+            display: flex;
+            align-items: center;
+            min-width: 0;
+            gap: 0.5rem;
+            color: #cd3529;
+            font-weight: bold;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .reportTeam--home {
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .reportTeam--away {
+            justify-content: flex-start;
+            text-align: left;
+        }
+
+        .reportTeamName {
+            min-width: 0;
+            overflow-wrap: anywhere;
+        }
+
+        .reportTeam > .clubBadge {
+            width: 2rem;
+            height: 2rem;
+            flex: 0 0 2rem;
+            object-fit: contain;
+        }
+
+        /* Country flags */
+
+        .teamFlagSlot {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 auto;
+        }
+
+        .teamFlagSlot:empty {
+            display: none;
+        }
+
+        .teamFlagSlot .customFlag {
+            display: block;
+            width: 1.25em;
+            height: 0.9em;
+            flex: 0 0 auto;
+            object-fit: cover;
+        }
+
+        .reportResult {
+            color: #cd3529;
+            font-weight: bold;
+            font-size: 2rem;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        /* Stadium and attendance */
+
+        .reportVenueAttendance {
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin: 0 0 1rem;
+            padding-top: 0.65rem;
+            position: relative;
+        }
+
+        .reportVenueAttendance::before {
+            content: "";
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: #cd3529;
+            margin: 0 auto 0.4rem;
+        }
+
+        .reportVenueAttendance p {
+            margin: 0;
+        }
+
+        .attendanceLabel {
+            font-size: 0.92em;
+            color: #aaa;
+        }
+
+        .awayAttendance {
+            color: #888;
+        }
+
+        /* Goals, assists and red cards */
+
+        .reportEvents {
+            display: block;
+            max-width: 700px;
+            margin: 0 auto 1rem;
+            padding: 0;
+        }
+
+        .reportEvents[hidden] {
+            display: none;
+        }
+
+        .reportEvent {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.6rem;
+            padding: 0.4rem 0;
+            font-size: 0.9rem;
+        }
+
+        .reportEventIcon {
+            flex-shrink: 0;
+            width: 0.7rem;
+            height: 0.9rem;
+            margin-top: 0.15rem;
+        }
+
+        .reportEventIcon--goal {
+            color: #555;
+        }
+
+        .reportEventIcon--red {
+            background: #d62828;
+            border-radius: 1px;
+        }
+
+        .reportEventMinute {
+            color: #666;
+            white-space: nowrap;
+        }
+
+        /* Scorers and assisters */
+
+        .reportGoalColumns {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+            column-gap: 1.5rem;
+            align-items: start;
+        }
+
+        .reportGoalSide {
+            min-width: 0;
+        }
+
+        .reportGoalSide--home {
+            text-align: right;
+        }
+
+        .reportGoalSide--away {
+            text-align: left;
+        }
+
+        .reportGoalList {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 1rem;
+            line-height: 1.6;
+            overflow-wrap: anywhere;
+        }
+
+        .reportGoalScorers {
+            font-weight: bold;
+        }
+
+        .reportGoalAssists {
+            font-weight: normal;
+        }
+
+        .reportGoalCentre {
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .reportHalfTime {
+            margin: 0;
+            padding-top: 0.1rem;
+            color: #777;
+            font-size: 0.75rem;
+            font-weight: normal;
+        }
+
+        .reportAssistsLabel {
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        .reportGoalDivider {
+            width: 50%;
+            height: 1px;
+            margin: 0.65rem auto;
+            background: #e0e0e0;
+        }
+
+        /* Red-card */
+
+        .reportEventCardIcon {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.15rem;
+            vertical-align: -0.2rem;
+            object-fit: contain;
+        }
+
+        /* General match details */
+
+        .reportDetails {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+            gap: 0.35rem 1.25rem;
+            margin: 1rem 0 2rem;
+            padding: 0;
+            background: transparent;
+            border: none;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .reportDetail {
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 0.25rem;
+        }
+
+        .reportDetails dt,
+        .reportDetails dd {
+            margin: 0;
+            font-size: 0.85rem;
+            font-weight: normal;
+            color: #888;
+            line-height: 1.5;
+        }
+
+        .reportDetails dt {
+            color: #777;
+        }
+
+        .reportDetail:not(:last-child)::after {
+            content: "·";
+            margin-left: 0.75rem;
+            color: #aaa;
+        }
+
+        /* Player of the Match panel */
+
+        .playerOfTheMatch {
+            max-width: 560px;
+            margin: 1.5rem auto 1rem;
+            padding: 1rem 1.25rem;
+            background: #cd3529;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+            text-align: left;
+        }
+
+        .playerOfTheMatchLabel {
+            display: block;
+            margin: 0 0 0.3rem;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+
+        .playerOfTheMatchName {
+            display: block;
+            color: #fff;
+            font-size: 1.35rem;
+            font-weight: bold;
+            line-height: 1.35;
+            overflow-wrap: anywhere;
+        }
+
+        .playerOfTheMatchTeam {
+            display: block;
+            margin-top: 0.2rem;
+            color: #f5c4c0;
+            font-size: 0.85rem;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+
+        /* Opposition Player of the Match */
+
+        .playerOfTheMatch--opposition {
+            background: #f0f0f0;
+            color: #222;
+        }
+
+        .playerOfTheMatch--opposition .playerOfTheMatchLabel {
+            color: #666;
+        }
+
+        .playerOfTheMatch--opposition .playerOfTheMatchName {
+            color: #222;
+        }
+
+        .playerOfTheMatch--opposition .playerOfTheMatchTeam {
+            color: #777;
+        }
+
+        /* Table position below the report */
+
+        #postReportDetails .reportDetails {
+            margin-top: 1rem;
+        }
+
+        /* Written report */
+
+        #reportContent {
+            line-height: 1.7;
+        }
+
+        #reportContent p {
+            margin: 0 0 1rem;
+        }
+
+        #reportStatus:empty {
+            display: none;
+        }
+
+        /* Mobile layout */
+
+        @media (max-width: 480px) {
+            .reportScore {
+                gap: 0.35rem;
+                padding: 0.75rem 0;
+            }
+
+            .reportTeam {
+                gap: 0.25rem;
+                font-size: 0.9rem;
+            }
+
+            .reportTeam > .clubBadge {
+                width: 1.25rem;
+                height: 1.25rem;
+                flex-basis: 1.25rem;
+            }
+
+            .teamFlagSlot .customFlag {
+                width: 1.1em;
+                height: 0.8em;
+            }
+
+            .reportResult {
+                font-size: 2rem;
+            }
+
+            .reportVenueAttendance {
+                padding-top: 0.45rem;
+                font-size: 0.8rem;
+            }
+
+            .reportGoalColumns {
+                column-gap: 0.65rem;
+            }
+
+            .reportGoalList {
+                font-size: 0.85rem;
+            }
+
+            .reportHalfTime {
+                font-size: 0.7rem;
+            }
+
+            .reportAssistsLabel {
+                font-size: 0.75rem;
+            }
+
+            .reportGoalDivider {
+                width: 50%;
+            }
+
+            .reportDetails {
+                gap: 0.4rem 0.75rem;
+            }
+            
+            .playerOfTheMatch {
+                margin: 1.25rem 0 0.75rem;
+                padding: 0.9rem 1rem;
+            }
+
+            .playerOfTheMatchLabel {
+                font-size: 0.8rem;
+            }
+
+            .playerOfTheMatchName {
+                font-size: 1.2rem;
+            }
+
+            .playerOfTheMatchTeam {
+                font-size: 0.8rem;
+        }
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main class="article reportPage">
+
+        <a id="seasonLogoLink" href="#">
+            <span class="logoCrop">
+                <img id="seasonLogo" class="logo" src="" alt="Season logo">
+            </span>
+        </a>
+
+        <div id="reportStatus" role="status" aria-live="polite"></div>
+
+        <section id="matchHeader" hidden>
+            <p class="reportMeta" id="matchMetadata"></p>
+
+            <div class="reportScore">
+                <div class="reportTeam reportTeam--home">
+                    <span class="reportTeamName" id="homeName"></span>
+                    <span class="teamFlagSlot" id="homeFlagSlot"></span>
+                </div>
+
+                <div class="reportResult" id="matchScore"></div>
+
+                <div class="reportTeam reportTeam--away">
+                    <span class="teamFlagSlot" id="awayFlagSlot"></span>
+                    <span class="reportTeamName" id="awayName"></span>
+                </div>
+            </div>
+
+            <div class="reportEvents" id="reportEvents" hidden></div>
+
+            <div class="reportVenueAttendance" id="venueAttendance"></div>
+        </section>
+
+        <section id="matchDetails" hidden>
+            <dl class="reportDetails" id="detailsList"></dl>
+        </section>
+
+        <section id="reportSection" hidden>
+            <h2>Match report</h2>
+            <div id="reportContent"></div>
+        </section>
+
+        <section id="postReportDetails" hidden>
+            <div class="playerOfTheMatch" id="playerOfTheMatch" hidden>
+                <span class="playerOfTheMatchLabel">Player of the Match</span>
+                <span class="playerOfTheMatchName" id="playerOfTheMatchName"></span>
+                <span class="playerOfTheMatchTeam" id="playerOfTheMatchTeam"></span>
+            </div>
+
+            <dl class="reportDetails" id="postReportDetailsList"></dl>
+        </section>
+
+    </main>
+
+    <script>
+        async function cropSeasonLogo(img) {
+            let objectURL;
+
+            try {
+                const response = await fetch(img.src);
+                if (!response.ok) return;
+
+                const svgText = await response.text();
+                const svgDocument = new DOMParser().parseFromString(
+                    svgText,
+                    "image/svg+xml"
+                );
+
+                const svg = svgDocument.documentElement;
+
+                if (svg.tagName.toLowerCase() !== "svg") return;
+
+                const viewBox = svg.getAttribute("viewBox");
+                if (!viewBox) return;
+
+                const [x, y, width, height] = viewBox
+                    .trim()
+                    .split(/[\s,]+/)
+                    .map(Number);
+
+                if (![x, y, width, height].every(Number.isFinite)) return;
+                if (width <= 0 || height <= 0) return;
+
+                const scale = Math.min(4, 1200 / Math.max(width, height));
+                const canvas = document.createElement("canvas");
+
+                canvas.width = Math.max(1, Math.ceil(width * scale));
+                canvas.height = Math.max(1, Math.ceil(height * scale));
+
+                const ctx = canvas.getContext("2d");
+                if (!ctx) return;
+
+                objectURL = URL.createObjectURL(
+                    new Blob([svgText], {
+                        type: "image/svg+xml;charset=utf-8"
+                    })
+                );
+
+                const renderedImage = new Image();
+
+                try {
+                    await new Promise((resolve, reject) => {
+                        renderedImage.onload = resolve;
+                        renderedImage.onerror = reject;
+                        renderedImage.src = objectURL;
+                    });
+
+                    ctx.drawImage(
+                        renderedImage,
+                        0,
+                        0,
+                        canvas.width,
+                        canvas.height
+                    );
+
+                    const pixels = ctx.getImageData(
+                        0,
+                        0,
+                        canvas.width,
+                        canvas.height
+                    ).data;
+
+                    let minX = canvas.width;
+                    let minY = canvas.height;
+                    let maxX = -1;
+                    let maxY = -1;
+
+                    for (let py = 0; py < canvas.height; py++) {
+                        for (let px = 0; px < canvas.width; px++) {
+                            const alpha = pixels[
+                                (py * canvas.width + px) * 4 + 3
+                            ];
+
+                            if (alpha > 10) {
+                                minX = Math.min(minX, px);
+                                minY = Math.min(minY, py);
+                                maxX = Math.max(maxX, px);
+                                maxY = Math.max(maxY, py);
+                            }
+                        }
+                    }
+
+                    if (maxX < minX || maxY < minY) return;
+
+                    const pad = 2;
+                    const left = Math.max(0, minX - pad);
+                    const top = Math.max(0, minY - pad);
+                    const right = Math.min(canvas.width - 1, maxX + pad);
+                    const bottom = Math.min(canvas.height - 1, maxY + pad);
+
+                    svg.setAttribute(
+                        "viewBox",
+                        `${x + left / scale} ${y + top / scale} ` +
+                        `${(right - left + 1) / scale} ` +
+                        `${(bottom - top + 1) / scale}`
+                    );
+
+                    const croppedBlob = new Blob(
+                        [new XMLSerializer().serializeToString(svg)],
+                        { type: "image/svg+xml;charset=utf-8" }
+                    );
+
+                    const croppedURL = URL.createObjectURL(croppedBlob);
+
+                    img.onload = () => URL.revokeObjectURL(croppedURL);
+                    img.onerror = () => URL.revokeObjectURL(croppedURL);
+                    img.src = croppedURL;
+
+                } finally {
+                    URL.revokeObjectURL(objectURL);
+                    objectURL = null;
+                }
+
+            } catch (error) {
+                console.error("Could not crop season logo:", error);
+            } finally {
+                if (objectURL) {
+                    URL.revokeObjectURL(objectURL);
+                }
+            }
+        }
+
+        (() => {
+            "use strict";
+
+            const SEASON_PARAM = new URLSearchParams(window.location.search).get("season");
+            const SEASON = /^\d{4}-\d{2}$/.test(SEASON_PARAM || "") ? SEASON_PARAM : "2025-26";
+            const DATA_URL = `/data/matches/${SEASON}.json`;
+            const FLAGS_DIRECTORY = "/data/custom_emoji_flags/";
+            const getElement = id => document.getElementById(id);
+
+            function setText(id, value) {
+                const element = getElement(id);
+
+                if (element) {
+                    element.textContent = value;
+                }
+            }
+
+            function formatDate(dateString) {
+                if (!dateString) return "";
+
+                const parts = dateString.split("-").map(Number);
+
+                if (parts.length !== 3 || parts.some(Number.isNaN)) {
+                    return dateString;
+                }
+
+                const [year, month, day] = parts;
+
+                return new Date(year, month - 1, day).toLocaleDateString(
+                    "en-GB",
+                    {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric"
+                    }
+                );
+            }
+
+            function addDetail(list, label, value) {
+                if (
+                    value === null ||
+                    value === undefined ||
+                    value === ""
+                ) {
+                    return;
+                }
+
+                const wrapper = document.createElement("div");
+                wrapper.className = "reportDetail";
+
+                const dt = document.createElement("dt");
+                dt.textContent = label;
+
+                const dd = document.createElement("dd");
+                dd.textContent = String(value);
+
+                wrapper.append(dt, dd);
+                list.appendChild(wrapper);
+            }
+
+            function getTeamFlagCode(team) {
+                if (!team || typeof team !== "object") {
+                    return "";
+                }
+
+                const code =
+                    team.flagCode ??
+                    team.flag ??
+                    team.countryCode ??
+                    team.country?.code ??
+                    "";
+
+                return String(code).trim().toLowerCase();
+            }
+
+            function setTeamFlag(slotId, team) {
+                const slot = getElement(slotId);
+                if (!slot) return;
+
+                slot.replaceChildren();
+                slot.removeAttribute("data-flag");
+
+                const code = getTeamFlagCode(team);
+
+                if (!/^[a-z0-9_-]{2,3}$/.test(code)) {
+                    return;
+                }
+
+                slot.dataset.flag = code;
+
+                /*
+                 * Create the image directly in its dedicated slot.
+                 * This avoids relying on the MutationObserver to detect
+                 * a data-flag attribute being added after page load.
+                 */
+                const flag = document.createElement("img");
+                flag.className = "customFlag";
+                flag.src = `${FLAGS_DIRECTORY}${code}.svg`;
+                flag.alt = "";
+                flag.setAttribute("aria-hidden", "true");
+                flag.draggable = false;
+                flag.loading = "lazy";
+
+                flag.addEventListener("error", () => {
+                    console.error(
+                        `[Match report] Could not load country flag: ${flag.src}`
+                    );
+                    flag.remove();
+                }, { once: true });
+
+                slot.appendChild(flag);
+            }
+
+
+            function renderGoalContributions(goals, redCards, homeName, awayName) {
+    const container = getElement("reportEvents");
+    if (!container) return;
+
+    container.replaceChildren();
+
+    const sides = {
+        home: { name: homeName, events: [], assists: new Map() },
+        away: { name: awayName, events: [], assists: new Map() }
+    };
+
+    let halfTimeHome = 0;
+    let halfTimeAway = 0;
+
+    function getMinute(event) {
+        if (event.minute === null || event.minute === undefined ||
+            event.minute === "") {
+            return null;
+        }
+
+        const minute = Number.parseInt(event.minute, 10);
+        return Number.isFinite(minute) && minute >= 0 ? minute : null;
+    }
+
+    function getAddedTime(event) {
+        if (event.addedTime === null || event.addedTime === undefined ||
+            event.addedTime === "") {
+            return 0;
+        }
+
+        const added = Number.parseInt(event.addedTime, 10);
+        return Number.isFinite(added) && added > 0 ? added : 0;
+    }
+
+    function formatMinute(event) {
+        const minute = getMinute(event);
+        if (minute === null) return "";
+
+        const added = getAddedTime(event);
+
+        return added > 0
+            ? `${minute}+${added}'`
+            : `${minute}'`;
+    }
+
+    function getSide(team) {
+        const teamName = String(team || "").trim().toLocaleLowerCase();
+
+        if (teamName === String(homeName).trim().toLocaleLowerCase()) {
+            return "home";
+        }
+
+        if (teamName === String(awayName).trim().toLocaleLowerCase()) {
+            return "away";
+        }
+
+        return null;
+    }
+
+    function addContribution(map, player, minute) {
+        const name = String(player || "").trim();
+        if (!name) return;
+
+        const key = name.toLocaleLowerCase();
+
+        if (!map.has(key)) {
+            map.set(key, { name, minutes: [] });
+        }
+
+        const entry = map.get(key);
+
+        if (minute && !entry.minutes.includes(minute)) {
+            entry.minutes.push(minute);
+        }
+    }
+
+    // Add goals to the appropriate team's event list.
+    if (Array.isArray(goals)) {
+        for (const goal of goals) {
+            if (!goal || typeof goal !== "object") continue;
+
+            const scoringSide = getSide(goal.team);
+            if (!scoringSide) continue;
+
+            // Own goals are credited to the opposing team.
+            const creditedSide = goal.ownGoal
+                ? (scoringSide === "home" ? "away" : "home")
+                : scoringSide;
+
+            const minute = getMinute(goal);
+            const addedTime = getAddedTime(goal);
+
+            // Calculate the half-time score from goals, not dismissals.
+            if (minute !== null && minute <= 45) {
+                if (creditedSide === "home") {
+                    halfTimeHome++;
+                } else {
+                    halfTimeAway++;
+                }
+            }
+
+            const scorer = String(goal.scorer || "").trim();
+
+            if (scorer) {
+                sides[creditedSide].events.push({
+                    type: "goal",
+                    player: scorer,
+                    minute,
+                    addedTime,
+                    minuteLabel: formatMinute(goal)
+                });
+            }
+
+            // Assists belong to the side that actually scored.
+            if (goal.assist && !goal.ownGoal) {
+                addContribution(
+                    sides[scoringSide].assists,
+                    goal.assist,
+                    formatMinute(goal)
+                );
+            }
+        }
+    }
+
+    // Add red cards to the same event lists as goals.
+    if (Array.isArray(redCards)) {
+        for (const card of redCards) {
+            if (!card || typeof card !== "object") continue;
+
+            const side = getSide(card.team);
+            if (!side) continue;
+
+            const player = String(card.player || "").trim();
+            if (!player) continue;
+
+            sides[side].events.push({
+                type: "redCard",
+                player,
+                minute: getMinute(card),
+                addedTime: getAddedTime(card),
+                minuteLabel: formatMinute(card),
+                secondBookable: card.secondBookable === true
+            });
+        }
+    }
+
+    // Sort each team's goals and dismissals by match time.
+    // Events without a recorded minute appear after timed events.
+    for (const side of Object.values(sides)) {
+        side.events.sort((a, b) => {
+            if (a.minute === null && b.minute === null) return 0;
+            if (a.minute === null) return 1;
+            if (b.minute === null) return -1;
+
+            const timeA = a.minute + a.addedTime / 100;
+            const timeB = b.minute + b.addedTime / 100;
+
+            return timeA - timeB;
+        });
+    }
+
+    function makeEventList(events) {
+        const list = document.createElement("ul");
+        list.className = "reportGoalList reportGoalScorers";
+
+        for (const event of events) {
+            const item = document.createElement("li");
+
+            item.appendChild(document.createTextNode(event.player));
+
+            if (event.minuteLabel) {
+                item.appendChild(
+                    document.createTextNode(` (${event.minuteLabel})`)
+                );
+            }
+
+            if (event.type === "redCard") {
+                const icon = document.createElement("img");
+
+                icon.className = "reportEventCardIcon";
+                icon.src = event.secondBookable
+                    ? "/the_club/seasons/graphics/second-yellow.svg"
+                    : "/the_club/seasons/graphics/red-card.svg";
+
+                icon.alt = event.secondBookable
+                    ? "Sent off for a second bookable offence"
+                    : "Sent off with a straight red card";
+
+                icon.title = icon.alt;
+                icon.loading = "lazy";
+
+                item.appendChild(document.createTextNode(" "));
+                item.appendChild(icon);
+            }
+
+            list.appendChild(item);
+        }
+
+        return list;
+    }
+
+    function makeAssistList(map) {
+        const list = document.createElement("ul");
+        list.className = "reportGoalList reportGoalAssists";
+
+        for (const entry of map.values()) {
+            const item = document.createElement("li");
+
+            item.textContent = entry.minutes.length
+                ? `${entry.name} (${entry.minutes.join(", ")})`
+                : entry.name;
+
+            list.appendChild(item);
+        }
+
+        return list;
+    }
+
+    function makeColumns(type, centreText, centreClass) {
+        const columns = document.createElement("div");
+        columns.className = `reportGoalColumns reportGoalColumns--${type}`;
+
+        const homePanel = document.createElement("div");
+        homePanel.className = "reportGoalSide reportGoalSide--home";
+
+        const awayPanel = document.createElement("div");
+        awayPanel.className = "reportGoalSide reportGoalSide--away";
+
+        if (type === "scorers") {
+            if (sides.home.events.length > 0) {
+                homePanel.appendChild(makeEventList(sides.home.events));
+            }
+
+            if (sides.away.events.length > 0) {
+                awayPanel.appendChild(makeEventList(sides.away.events));
+            }
+        } else {
+            if (sides.home.assists.size > 0) {
+                homePanel.appendChild(makeAssistList(sides.home.assists));
+            }
+
+            if (sides.away.assists.size > 0) {
+                awayPanel.appendChild(makeAssistList(sides.away.assists));
+            }
+        }
+
+        const centre = document.createElement("div");
+        centre.className = `reportGoalCentre ${centreClass}`;
+        centre.textContent = centreText;
+
+        columns.append(homePanel, centre, awayPanel);
+
+        return columns;
+    }
+
+    // No goals or red cards? Hide the event area.
+    const hasEvents =
+        sides.home.events.length > 0 ||
+        sides.away.events.length > 0;
+
+    const hasAssists =
+        sides.home.assists.size > 0 ||
+        sides.away.assists.size > 0;
+
+    if (!hasEvents && !hasAssists) {
+        container.hidden = true;
+        return;
+    }
+
+    const scorers = makeColumns(
+        "scorers",
+        `HT ${halfTimeHome}-${halfTimeAway}`,
+        "reportHalfTime"
+    );
+
+    container.appendChild(scorers);
+
+    if (hasAssists) {
+        const divider = document.createElement("div");
+        divider.className = "reportGoalDivider";
+
+        const assists = makeColumns(
+            "assists",
+            "Assists",
+            "reportAssistsLabel"
+        );
+
+        container.append(divider, assists);
+    }
+
+    container.hidden = false;
+}
+
+
+            function renderReport(match) {
+                if (!match.date) {
+                    throw new Error("The match has no date.");
+                }
+
+                const seasonStartYear = Number(match.date.slice(0, 4)) -
+                    (Number(match.date.slice(5, 7)) < 7 ? 1 : 0);
+
+                const season = `${seasonStartYear}-${String(
+                    (seasonStartYear + 1) % 100
+                ).padStart(2, "0")}`;
+
+                const seasonLogoLink = getElement("seasonLogoLink");
+                const seasonLogo = getElement("seasonLogo");
+
+                seasonLogoLink.href = `${season}.html`;
+                seasonLogo.src = `/images/years/${seasonStartYear}.svg`;
+                seasonLogo.alt = `${season} season`;
+
+                cropSeasonLogo(seasonLogo);
+
+                const home = match.home?.name || "Home team";
+                const away = match.away?.name || "Away team";
+                const score = match.score;
+
+                const hasScore =
+                    score &&
+                    score.home !== null &&
+                    score.home !== undefined &&
+                    score.away !== null &&
+                    score.away !== undefined;
+
+                const title = hasScore
+                    ? `${home} ${score.home}–${score.away} ${away}`
+                    : `${home} vs ${away}`;
+
+                document.title = `${title} | MFC Archive`;
+
+                setText("homeName", home);
+                setText("awayName", away);
+
+                /*
+                 * Country flags go into separate slots:
+                 *
+                 * Home name -> home flag -> score ->
+                 * away flag -> away name.
+                 */
+                setTeamFlag("homeFlagSlot", match.home);
+                setTeamFlag("awayFlagSlot", match.away);
+
+                /*
+                 * Keep club badge lookup on the team-name elements.
+                 * Country flags are deliberately not attached to these.
+                 */
+                getElement("homeName").dataset.club = home;
+                getElement("awayName").dataset.club = away;
+
+                /*
+                 * If the badge script has already loaded, ask it to
+                 * process the updated team-name elements immediately.
+                 */
+                if (typeof window.applyClubBadges === "function") {
+                    window.applyClubBadges(getElement("matchHeader"));
+                }
+
+                setText(
+                    "matchScore",
+                    hasScore ? `${score.home}–${score.away}` : "vs"
+                );
+
+                const round = String(match.round || "").trim();
+                const competition = String(match.competition || "").toLowerCase();
+
+                let roundLabel = "";
+
+                if (round) {
+                    // Named rounds must not receive a "Matchweek" or "Round" prefix.
+                    if (
+                        /^(round of \d+|semi[- ]final|quarter[- ]final|final|play[- ]offs?)(\b.*)?$/i.test(round) ||
+                        /^(first|second|1st|2nd) leg$/i.test(round)
+                    ) {
+                        roundLabel = round;
+                    } else if (
+                        competition.includes("championship") ||
+                        competition.includes("premier league") ||
+                        competition.includes("premiership") ||
+                        competition.includes("league one") ||
+                        competition.includes("league two")
+                    ) {
+                        roundLabel = /^matchweek\b/i.test(round)
+                            ? round
+                            : `Matchweek ${round}`;
+                    } else {
+                        roundLabel = /^round\b/i.test(round)
+                            ? round
+                            : `Round ${round}`;
+                    }
+                }
+
+                const metadata = [
+                    formatDate(match.date),
+                    match.kickoff,
+                    match.competition,
+                    roundLabel
+                ].filter(Boolean);
+
+                setText("matchMetadata", metadata.join(" · "));
+                getElement("matchHeader").hidden = false;
+
+                // Stadium and attendance beneath the score.
+                const details = match.details || {};
+                const venueAttendance = getElement("venueAttendance");
+
+                venueAttendance.replaceChildren();
+
+                if (details.stadium) {
+                    const venue = document.createElement("p");
+                    venue.textContent = details.stadium;
+                    venueAttendance.appendChild(venue);
+                }
+
+                const hasHomeAttendance =
+                    details.attendance !== null &&
+                    details.attendance !== undefined &&
+                    details.attendance !== "";
+
+                const hasAwayAttendance =
+                    details.awayAttendance !== null &&
+                    details.awayAttendance !== undefined &&
+                    details.awayAttendance !== "";
+
+                if (hasHomeAttendance || hasAwayAttendance) {
+                    const attendance = document.createElement("p");
+
+                    if (hasHomeAttendance) {
+                        const label = document.createElement("span");
+                        label.className = "attendanceLabel";
+                        label.textContent = "Attendance: ";
+
+                        attendance.appendChild(label);
+                        attendance.appendChild(
+                            document.createTextNode(
+                                String(details.attendance)
+                            )
+                        );
+
+                        if (hasAwayAttendance) {
+                            const awayAttendance =
+                                document.createElement("span");
+
+                            awayAttendance.className = "awayAttendance";
+                            awayAttendance.textContent =
+                                ` (Away: ${details.awayAttendance})`;
+
+                            attendance.appendChild(awayAttendance);
+                        }
+                    } else {
+                        const label = document.createElement("span");
+                        label.className = "attendanceLabel";
+                        label.textContent = "Away attendance: ";
+
+                        attendance.appendChild(label);
+                        attendance.appendChild(
+                            document.createTextNode(
+                                String(details.awayAttendance)
+                            )
+                        );
+                    }
+
+                    venueAttendance.appendChild(attendance);
+                }
+
+                // Away attendance is already shown alongside home attendance.
+                const detailsList = getElement("detailsList");
+                detailsList.replaceChildren();
+
+                getElement("matchDetails").hidden =
+                    detailsList.children.length === 0;
+
+                // Goal scorers and assists beneath the score.
+                renderGoalContributions(
+                    details.goals,
+                    details.redCards,
+                    home,
+                    away
+                );
+
+                // Written match report.
+                const reportContent = getElement("reportContent");
+
+                if (match.reportContent) {
+                    reportContent.innerHTML = match.reportContent;
+                    getElement("reportSection").hidden = false;
+                } else {
+                    reportContent.replaceChildren();
+                    getElement("reportSection").hidden = true;
+
+                    setText(
+                        "reportStatus",
+                        "The report for this match has not been written yet."
+                    );
+                }
+
+                // Player of the Match.
+                const playerOfTheMatch = details.playerOfTheMatch;
+                const playerOfTheMatchTeam = String(
+                    details.playerOfTheMatchTeam || ""
+                ).trim().toLowerCase();
+
+                const potmPanel = getElement("playerOfTheMatch");
+                const potmTeamElement = getElement("playerOfTheMatchTeam");
+
+                const hasPotm =
+                    playerOfTheMatch !== null &&
+                    playerOfTheMatch !== undefined &&
+                    String(playerOfTheMatch).trim() !== "";
+
+                if (hasPotm) {
+                    setText("playerOfTheMatchName", playerOfTheMatch);
+
+                    let teamName = "";
+                    let isBoroPlayer = true;
+
+                    if (playerOfTheMatchTeam === "home") {
+                        teamName = home;
+                    } else if (playerOfTheMatchTeam === "away") {
+                        teamName = away;
+                    }
+
+                    if (teamName) {
+                        isBoroPlayer = teamName
+                            .toLocaleLowerCase()
+                            .includes("middlesbrough");
+
+                        setText("playerOfTheMatchTeam", teamName);
+                        potmTeamElement.hidden = false;
+                    } else {
+                        setText("playerOfTheMatchTeam", "");
+                        potmTeamElement.hidden = true;
+                    }
+
+                    potmPanel.classList.toggle(
+                        "playerOfTheMatch--opposition",
+                        !isBoroPlayer
+                    );
+
+                    potmPanel.hidden = false;
+                } else {
+                    setText("playerOfTheMatchName", "");
+                    setText("playerOfTheMatchTeam", "");
+
+                    potmPanel.classList.remove("playerOfTheMatch--opposition");
+                    potmPanel.hidden = true;
+                }
+
+                // Table position beneath the Player of the Match panel.
+                const postReportDetailsList =
+                    getElement("postReportDetailsList");
+
+                postReportDetailsList.replaceChildren();
+
+                addDetail(
+                    postReportDetailsList,
+                    "Table position after match",
+                    details.tableAfterMatch
+                );
+
+                const hasTablePosition =
+                    postReportDetailsList.children.length > 0;
+
+                getElement("postReportDetails").hidden =
+                    !hasPotm && !hasTablePosition;
+            }
+
+            async function loadReport() {
+                const params = new URLSearchParams(window.location.search);
+                const matchId = params.get("id");
+
+                if (!matchId) {
+                    setText(
+                        "reportStatus",
+                        "No match ID was provided in the URL."
+                    );
+                    return;
+                }
+
+                try {
+                    const response = await fetch(DATA_URL);
+
+                    if (!response.ok) {
+                        throw new Error(
+                            `Failed to load match data: ${response.status}`
+                        );
+                    }
+
+                    const data = await response.json();
+
+                    const matches = Array.isArray(data)
+                        ? data
+                        : data.matches;
+
+                    if (!Array.isArray(matches)) {
+                        throw new Error(
+                            "The match JSON does not contain a matches array."
+                        );
+                    }
+
+                    const match = matches.find(
+                        item => item.id === matchId
+                    );
+
+                    if (!match) {
+                        setText(
+                            "reportStatus",
+                            "No match was found for this URL."
+                        );
+                        return;
+                    }
+
+                    renderReport(match);
+
+                } catch (error) {
+                    console.error(
+                        "Unable to load match report:",
+                        error
+                    );
+
+                    setText(
+                        "reportStatus",
+                        "There was a problem loading the match data. Please try again later."
+                    );
+                }
+            }
+
+            loadReport();
+        })();
+    </script>
+</body>
+</html>

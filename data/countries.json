@@ -13,7 +13,7 @@
     },
     "nir": {
         "name": "Northern Ireland",
-        "emoji": "🇬🇧"
+        "flag": "custom_emoji_flags/nir.svg"
     },
     "abw": {
         "name": "Aruba",
