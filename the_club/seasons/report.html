@@ -1,6 +1,5 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -130,15 +129,16 @@
 
         .reportVenueAttendance p {
             margin: 0;
+            
         }
 
         .attendanceLabel {
             font-size: 0.92em;
-            color: #aaa;
+            color: #686868;
         }
 
         .awayAttendance {
-            color: #888;
+            color: #4b4a4a;
         }
 
         /* Goals, assists and red cards */
@@ -865,7 +865,8 @@
                     player: scorer,
                     minute,
                     addedTime,
-                    minuteLabel: formatMinute(goal)
+                    minuteLabel: formatMinute(goal),
+                    ownGoal: Boolean(goal.ownGoal)
                 });
             }
 
@@ -926,9 +927,19 @@
 
             item.appendChild(document.createTextNode(event.player));
 
+            const labelParts = [];
+
             if (event.minuteLabel) {
+                labelParts.push(event.minuteLabel);
+            }
+
+            if (event.ownGoal) {
+                labelParts.push("og");
+            }
+
+            if (labelParts.length > 0) {
                 item.appendChild(
-                    document.createTextNode(` (${event.minuteLabel})`)
+                    document.createTextNode(` (${labelParts.join(" ")})`)
                 );
             }
 
@@ -1202,7 +1213,7 @@
 
                             awayAttendance.className = "awayAttendance";
                             awayAttendance.textContent =
-                                ` (Away: ${details.awayAttendance})`;
+                                ` (${details.awayAttendance})`;
 
                             attendance.appendChild(awayAttendance);
                         }

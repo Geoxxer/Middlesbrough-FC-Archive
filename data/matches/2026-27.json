@@ -859,7 +859,7 @@
       "details": {
         "stadium": "Toughsheet Community Stadium",
         "attendance": "26,257",
-        "awayAttendance": null,
+        "awayAttendance": "5,206",
         "goals": [
           {
             "minute": 13,
@@ -933,20 +933,48 @@
         "name": "Charlton Athletic"
       },
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "reportContent": null,
       "details": {
         "stadium": "Riverside Stadium",
-        "attendance": null,
+        "attendance": "29,831",
         "awayAttendance": null,
-        "goals": [],
+        "goals": [
+          {
+            "minute": 12,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Sebastian Berhalter",
+            "assist": "Amario Cozier-Duberry",
+            "ownGoal": false
+          },
+          {
+            "minute": 44,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": "Sebastian Berhalter",
+            "ownGoal": false
+          },
+          {
+            "minute": 82,
+            "addedTime": null,
+            "team": "Middlesbrough",
+            "scorer": "Will Lankshear",
+            "assist": null,
+            "ownGoal": false
+          }
+        ],
         "redCards": [],
         "playerOfTheMatch": null,
         "tableAfterMatch": null
       },
-      "sources": null
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647397",
+        "https://www.mfc.co.uk/news/2026/october/31/match-review--boro-3-charlton-athletic-0/"
+      ]
     },
     {
       "id": "2026-11-04-wrexham-middlesbrough",
