@@ -7,7 +7,7 @@
    viewBox="0 0 367.00115 135.54937"
    version="1.1"
    id="svg1"
-   inkscape:export-filename="mfcarchive_3_2.svg"
+   inkscape:export-filename="mfcarchive_3_2.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    sodipodi:docname="mfcarchive_3_2.svg"
@@ -24,14 +24,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="367.00116"
+       height="135.54938"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
   <defs
      id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-14.936918,-64.516987)">
+     transform="translate(-14.936918,-64.516989)">
     <g
        id="g1"
        transform="translate(-1.5371877,8.9924158)">
