@@ -332,7 +332,7 @@
           }
         ],
         "redCards": [],
-        "playerOfTheMatch": "Aiden Morris",
+        "playerOfTheMatch": "Aidan Morris",
         "playerOfTheMatchTeam": "away",
         "tableAfterMatch": null
       },
@@ -1006,20 +1006,41 @@
         "name": "Middlesbrough"
       },
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "reportContent": null,
+      "reportContent": "<p><strong>Boro’s 11-match unbeaten run in the league came to an end as Wrexham won a tight encounter in North Wales.</strong></p><p>George Thomason struck with 20 minutes remaining after a strong second half showing from the hosts, who sealed their victory with a header from Ollie Rathbone in the closing stages.</p><p>Kim Hellberg’s men remain top of the Sky Bet Championship despite the result, ahead of Saturday’s trip to Watford.</p><p>Luke Ayling and Kyle Joseph replaced Riley McGree and the unavailable Will Lankshear in the Boro starting XI, and a tight first half followed.</p><p>There were openings – albeit rare – at both ends.</p><p>Ben Whiteman struck narrowly wide from the edge of the box on eight minutes while for Boro, Adilson Malanda’s header from a Sebastian Berhalter free-kick was gathered low by Anthony Patterson.</p><p>Wrexham almost broke the deadlock just after the half-hour. Thomason got in down the left-hand side and fizzed a ball across which former Boro loanee Lewis O’Brien just couldn’t stretch enough to convert.</p><p>Boro’s best chance fell to Callum Brittain, who twisted and turned before having a low effort kicked away by Patterson.</p><p>Radek Vitek’s sole save of the first 45 minutes came shortly before the break as he clawed away a strike from distance by Max Cleworth.</p><p>The hosts thought they had scored just 30 seconds into the second half when Kieffer Moore’s shot was parried by Vitek and finished smartly by O’Brien, but the offside flag cut their celebrations short.</p><p>Boro weathered a strong start to the second period from Wrexham and then started to make inroads of their own.</p><p>Amario Cozier-Duberry’s eyes lit up when Patterson’s sliced clearance fell to him, but his strike from 30 yards skewed off target.</p><p>Boro were beginning to again look the likelier of the teams to open the scoring, but they were hit at the other end in the 70th minute as the ball dropped to Thomason and his fierce shot found the bottom of the net.</p><p>Substitutions saw half of Boro’s outfield players change in the second half, and two of the newcomers combined to create a decent chance for a leveller with eight minutes left.</p><p>Myles Peart-Harris played it through to Jeremy Sarmiento and with the angle relatively tight, he fired into the side netting.</p><p>Soon after, the home side sealed the points as Rathbone headed in.</p><p>Boro are back in action on Saturday with a trip to Vicarage Road to take on Watford.</p>",
       "details": {
         "stadium": "Racecourse Ground",
-        "attendance": null,
+        "attendance": "10,532",
         "awayAttendance": null,
-        "goals": [],
+        "goals": [
+          {
+            "minute": 70,
+            "addedTime": null,
+            "team": "Wrexham",
+            "scorer": "George Thomason",
+            "assist": "Kieffer Moore",
+            "ownGoal": false
+          },
+          {
+            "minute": 84,
+            "addedTime": null,
+            "team": "Wrexham",
+            "scorer": "Oliver Rathbone",
+            "assist": "Lewis O'Brien",
+            "ownGoal": false
+          }
+        ],
         "redCards": [],
-        "playerOfTheMatch": null,
+        "playerOfTheMatch": "George Thomason",
+        "playerOfTheMatchTeam": "home",
         "tableAfterMatch": null
       },
-      "sources": null
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647417",
+        "https://www.mfc.co.uk/news/2026/november/04/match-review--wrexham-2-boro-0/"
+      ]
     },
     {
       "id": "2026-11-07-watford-middlesbrough",
@@ -1035,20 +1056,24 @@
         "name": "Middlesbrough"
       },
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "reportContent": null,
+      "reportContent": "<p><strong>Boro were unable to break through as Saturday’s meeting with Watford ended goalless.</strong></p><p>Kim Hellberg’s side dominated possession and created a series of brilliant chances, but a goal proved elusive in their final game before the international break.</p><p>The point kept the Teessiders in the top two of the Sky Bet Championship, though, ahead of a home match against Bristol City in a fortnight.</p><p>There were four changes to Boro’s starting XI, with Sam Byram, Riley McGree, Jeremy Sarmiento and David Strelec brought into the side.</p><p>The Teessiders went on to dominate a first half which saw them regularly work the ball into dangerous positions and create decent chances.</p><p>The first came inside the first two minutes as Callum Brittain pulled the ball back to Sarmiento, whose strike was deflected wide.</p><p>Sarmiento was a thorn in Watford’s side, particularly in the early stages, and drew the first save from Federico Ravaglia when he connected with a superb Sebastian Berhalter cross.</p><p>The goalkeeper pushed a Sarmiento effort from outside the area wide shortly after, and later kept out a Brittain header after the right-back looked odds-on to score from Sarmiento’s cross.</p><p>The Ecuadorian was again frustrated just after the half-hour. Strelec received the ball in a good position down the inside-right of the box and pulled it across the face of goal, where Sarmiento was denied a tap-in by a last-ditch interception from Omar Traore.</p><p>Max Arfsten was introduced by Hellberg at the break and made an immediate impact, sending in a cross which Strelec headed wide.</p><p>McGree went closer moments later with a header of his own. He was found by a tremendous Sarmiento cross, and his backwards header dropped inches past the post.</p><p>Arfsten and Strelec were linking up impressively, and they combined again as Boro hit the post on 53 minutes. Arfsten sent in the delivery and Strelec held it up before finding Byram with a backheel, and his effort crashed against the woodwork.</p><p>Boro’s momentum stalled as Watford battled back, and Radek Vitek needed to be alert to save from Iker Bravo at his near post.</p><p>Kyle Joseph was one of the Boro substitutes brought into the action during the second half and he had a great chance with 12 minutes left, but Ravaglia again pulled off a fine save.</p><p>Boro continued to probe for a breakthrough heading into what were tense closing stages, but a goal was not forthcoming as the game ended all-square.</p>",
       "details": {
         "stadium": "Vicarage Road",
-        "attendance": null,
+        "attendance": "18,170",
         "awayAttendance": null,
         "goals": [],
         "redCards": [],
-        "playerOfTheMatch": null,
+        "playerOfTheMatch": "Aidan Morris",
+        "playerOfTheMatchTeam": "away",
         "tableAfterMatch": null
       },
-      "sources": null
+      "sources": [
+        "https://www.mfc.co.uk/matches/mens/2026/g2647427",
+        "https://www.mfc.co.uk/news/2026/november/07/match-review--watford-0-boro-0/"
+      ]
     },
     {
       "id": "2026-11-21-middlesbrough-bristol-city",
